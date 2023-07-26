@@ -1,0 +1,392 @@
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\NewRecetaLab.rpt
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\NewRecetaVB.rpt
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\NewRecetaLab.vb
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\NewRecetaVB.vb
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\Remision.vb
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\Remision.rpt
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.exe.config
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.exe.manifest
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.application
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.exe
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.pdb
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.xml
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\es-MX\Laboratorios.resources.dll
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\en-US\Laboratorios.resources.dll
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\Calcot.dll
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\CheckBox.dll
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\CheckButtonLarge.dll
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\ComboBox.dll
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\ComboBoxLarge.dll
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\RadioButton.dll
+C:\workspace\LRLBBF003\Laboratorios\bin\Debug\RoundButtonSmall.dll
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.AperturaRx.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ARLabList.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ARList.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Clientes_ABC.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Clientes_Saldo.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.CloseOrder.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Cotizacion.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Creditos.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.EditValues.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ErrorMessage.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Form1.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.FrameError.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.FrmDrill.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.GenerarRx.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.MiscCharges.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ModificarRecetas.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Resources.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Paquetes.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.PreviewArmazon.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Prismas.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ProcessEfficiency.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ReadFrame.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Recibo.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ReneterRx.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxList.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxPreview.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxResume.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ShowOrders.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.SpecialDesigns.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Splash.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.TouchScreenKeyboard.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.VirtualRx.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.WebOrders.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Working.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.CloseOrder.es-MX.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ErrorMessage.en-US.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Form1.es-MX.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.GenerarRx.es-MX.resources
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.vbproj.GenerateResource.Cache
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\es-MX\Laboratorios.resources.dll
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\en-US\Laboratorios.resources.dll
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.TrustInfo.xml
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.exe.manifest
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.application
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.exe
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.xml
+C:\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.pdb
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.exe.config
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.exe
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.xml
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.pdb
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\NewRecetaLab.rpt
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\NewRecetaVB.rpt
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\Remision.vb
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\Remision.rpt
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\NewRecetaLab.vb
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\NewRecetaVB.vb
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.exe.manifest
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.application
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.exe
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.pdb
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.xml
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\es-MX\Laboratorios.resources.dll
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\en-US\Laboratorios.resources.dll
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\Calcot.dll
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\CheckBox.dll
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\CheckButtonLarge.dll
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\ComboBox.dll
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\ComboBoxLarge.dll
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\RadioButton.dll
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\bin\Debug\RoundButtonSmall.dll
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.vbprojResolveAssemblyReference.cache
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.AperturaRx.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ARLabList.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ARList.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Clientes_ABC.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Clientes_Saldo.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.CloseOrder.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Cotizacion.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Creditos.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.EditValues.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ErrorMessage.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Form1.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.FrameError.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.FrmDrill.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.GenerarRx.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.MiscCharges.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ModificarRecetas.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Resources.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Paquetes.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.PreviewArmazon.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Prismas.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ProcessEfficiency.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ReadFrame.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Recibo.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ReneterRx.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxList.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxPreview.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxResume.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ShowOrders.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.SpecialDesigns.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Splash.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.TouchScreenKeyboard.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.VirtualRx.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.WebOrders.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Working.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.CloseOrder.es-MX.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ErrorMessage.en-US.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Form1.es-MX.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.GenerarRx.es-MX.resources
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.vbproj.GenerateResource.Cache
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\es-MX\Laboratorios.resources.dll
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\en-US\Laboratorios.resources.dll
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.TrustInfo.xml
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.exe.manifest
+C:\anajera\Peer Review\Respaldo JLHERRERA\workspace\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.application
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.exe.config
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.exe
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.xml
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.pdb
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\NewRecetaLab.rpt
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\NewRecetaVB.rpt
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\NewRecetaLab.vb
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\NewRecetaVB.vb
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\Remision.vb
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\Remision.rpt
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.exe.manifest
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.application
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.exe
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.pdb
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.xml
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\es-MX\Laboratorios.resources.dll
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\en-US\Laboratorios.resources.dll
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\Calcot.dll
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\CheckBox.dll
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\CheckButtonLarge.dll
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\ComboBox.dll
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\ComboBoxLarge.dll
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\RadioButton.dll
+C:\Ale\LRLBBF003\Laboratorios\bin\Debug\RoundButtonSmall.dll
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.vbprojResolveAssemblyReference.cache
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.AperturaRx.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ARLabList.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ARList.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Clientes_ABC.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Clientes_Saldo.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.CloseOrder.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Cotizacion.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Creditos.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.EditValues.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ErrorMessage.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Form1.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.FrameError.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.FrmDrill.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.GenerarRx.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.MiscCharges.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ModificarRecetas.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Resources.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Paquetes.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.PreviewArmazon.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Prismas.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ProcessEfficiency.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ReadFrame.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Recibo.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ReneterRx.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxList.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxPreview.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxResume.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ShowOrders.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.SpecialDesigns.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Splash.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.TouchScreenKeyboard.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.VirtualRx.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.WebOrders.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Working.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.CloseOrder.es-MX.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ErrorMessage.en-US.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Form1.es-MX.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.GenerarRx.es-MX.resources
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.vbproj.GenerateResource.Cache
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\es-MX\Laboratorios.resources.dll
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\en-US\Laboratorios.resources.dll
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.TrustInfo.xml
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.exe.manifest
+C:\Ale\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.application
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.vbprojAssemblyReference.cache
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.AperturaRx.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ARLabList.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ARList.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Clientes_ABC.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Clientes_Saldo.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.CloseOrder.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Cotizacion.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Creditos.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.EditValues.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ErrorMessage.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Form1.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.FrameError.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.FrmDrill.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.GenerarRx.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.MiscCharges.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ModificarRecetas.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Resources.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Paquetes.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.PreviewArmazon.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Prismas.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ProcessEfficiency.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ReadFrame.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Recibo.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ReneterRx.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxList.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxPreview.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxResume.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ShowOrders.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.SpecialDesigns.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Splash.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.TouchScreenKeyboard.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.VirtualRx.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.WebOrders.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Working.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.CloseOrder.es-MX.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ErrorMessage.en-US.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Form1.es-MX.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.GenerarRx.es-MX.resources
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.vbproj.GenerateResource.cache
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.vbproj.CoreCompileInputs.cache
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.exe
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.xml
+E:\Anajera\rtorres\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.pdb
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\NewRecetaLab.rpt
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\NewRecetaVB.rpt
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\NewRecetaLab.vb
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\NewRecetaVB.vb
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\Remision.vb
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\Remision.rpt
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.exe.config
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.exe.manifest
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.application
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.exe
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.pdb
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\Laboratorios.xml
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\es-MX\Laboratorios.resources.dll
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\en-US\Laboratorios.resources.dll
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\Calcot.dll
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\CheckBox.dll
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\CheckButtonLarge.dll
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\ComboBox.dll
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\ComboBoxLarge.dll
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\log4net.dll
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\RadioButton.dll
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\RoundButtonSmall.dll
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\bin\Debug\log4net.xml
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.vbprojResolveAssemblyReference.cache
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.AperturaRx.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ARLabList.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ARList.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Clientes_ABC.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Clientes_Saldo.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.CloseOrder.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Cotizacion.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Creditos.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.EditValues.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ErrorMessage.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Form1.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.FrameError.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.FrmDrill.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.GenerarRx.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.MiscCharges.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ModificarRecetas.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Resources.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Paquetes.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.PreviewArmazon.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Prismas.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ProcessEfficiency.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ReadFrame.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Recibo.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ReneterRx.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxList.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxPreview.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.RxResume.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ShowOrders.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.SpecialDesigns.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Splash.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.TouchScreenKeyboard.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.VirtualRx.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.WebOrders.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Working.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.CloseOrder.es-MX.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.ErrorMessage.en-US.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.Form1.es-MX.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.GenerarRx.es-MX.resources
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.vbproj.GenerateResource.Cache
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\es-MX\Laboratorios.resources.dll
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\en-US\Laboratorios.resources.dll
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.TrustInfo.xml
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.exe.manifest
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.application
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.exe
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.xml
+D:\Proyectos\LabRX\LRLBBF003\Laboratorios\obj\Debug\Laboratorios.pdb
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\NewRecetaLab.rpt
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\NewRecetaVB.rpt
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\NewRecetaLab.vb
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\NewRecetaVB.vb
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\Remision.vb
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\Remision.rpt
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\Laboratorios.exe.config
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\Laboratorios.exe.manifest
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\Laboratorios.application
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\Laboratorios.exe
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\Laboratorios.pdb
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\Laboratorios.xml
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\es-MX\Laboratorios.resources.dll
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\en-US\Laboratorios.resources.dll
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\Calcot.dll
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\CheckBox.dll
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\CheckButtonLarge.dll
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\ComboBox.dll
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\ComboBoxLarge.dll
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\log4net.dll
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\RadioButton.dll
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\RoundButtonSmall.dll
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\bin\Debug\log4net.xml
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.AperturaRx.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.ARLabList.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.ARList.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.Clientes_ABC.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.Clientes_Saldo.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.CloseOrder.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.Cotizacion.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.Creditos.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.EditValues.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.ErrorMessage.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.Form1.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.FrameError.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.FrmDrill.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.GenerarRx.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.MiscCharges.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.ModificarRecetas.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.Resources.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.Paquetes.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.PreviewArmazon.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.Prismas.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.ProcessEfficiency.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.ReadFrame.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.Recibo.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.ReneterRx.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.RxList.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.RxPreview.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.RxResume.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.ShowOrders.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.SpecialDesigns.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.Splash.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.TouchScreenKeyboard.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.VirtualRx.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.WebOrders.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.Working.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.CloseOrder.es-MX.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.ErrorMessage.en-US.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.Form1.es-MX.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.GenerarRx.es-MX.resources
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.vbproj.GenerateResource.cache
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\es-MX\Laboratorios.resources.dll
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\en-US\Laboratorios.resources.dll
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.TrustInfo.xml
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.exe.manifest
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.application
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.exe
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.xml
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.pdb
+D:\Proyectos\LabRX\LRLBBF003VS2019\Laboratorios\obj\Debug\Laboratorios.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,18 @@
+Imports CrystalDecisions.CrystalReports.Engine
+Imports CrystalDecisions.Shared
+Public Class RxPreview
+
+    Private Sub RxPreview_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Dim reporte As New ReportDocument
+        Dim dt As New DataSet
+
+        reporte.Load(My.Application.Info.DirectoryPath & "\" & My.Settings.ReporteReceta1)
+
+
+        dt.ReadXml(My.Application.Info.DirectoryPath & "\LabRx.xml")
+
+        reporte.SetDataSource(dt)
+        RxReport.ReportSource = reporte
+
+    End Sub
+End Class

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LensDsgd>
+      <LensDsg >
+        <side>right</side>
+        <genSurf>
+          <base>
+            <power>  0.00</power>
+          </base>
+          <cross>
+            <power>  0.00</power>
+          </cross>
+        </genSurf>
+        <lapSurf>
+          <base>
+            <power>  0.00</power>
+          </base>
+          <cross>
+            <power>  0.00</power>
+          </cross>
+        </lapSurf>
+        <ringSurf>
+          <blockName>
+          </blockName>
+          <diameter> 0.00</diameter>
+          <edgeHeigth> 0.00</edgeHeigth>
+          <BlockCurve>
+            <bCName>
+            </bCName>
+            <curve>0.50</curve>
+          </BlockCurve>
+        </ringSurf>
+        <Prism>
+          <diop> 0.00</diop>
+          <axis>  0.00</axis>
+        </Prism>
+        <cenThk> 0.00</cenThk>
+        <minEThk>
+          <thk> 1.00</thk>
+          <angle>  0.00</angle>
+        </minEThk>
+        <maxEthk>
+          <thk> 1.00</thk>
+          <angle>  0.00</angle>
+        </maxEthk>
+      </LensDsg>
+      <DisplPattern >
+        <side>right</side>
+        <diam>70</diam>
+        <crib> 0.00</crib>
+        <heigth>20.32</heigth>
+        <displ>
+          <x>  -7.50</x>
+          <y>   0.00</y>
+        </displ>
+        <notice>lens fit in frame with prism:  5.5mm</notice>
+      </DisplPattern>
+    </LensDsgd>

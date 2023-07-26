@@ -1,0 +1,397 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="DBUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+    <Setting Name="DBPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Proliant01</Value>
+    </Setting>
+    <Setting Name="ERPDBName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ERPMaster</Value>
+    </Setting>
+    <Setting Name="MfgSysDBName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MfgSys803</Value>
+    </Setting>
+    <Setting Name="LenteSinCalculos" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2105099999</Value>
+    </Setting>
+    <Setting Name="CheckOnHandQtyTime" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="LocalTrazosVirtuales" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TblTrazosVirtuales</Value>
+    </Setting>
+    <Setting Name="ERPTrazosVirtuales" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ERPMaster.dbo.TblTrazosVirtuales</Value>
+    </Setting>
+    <Setting Name="WorkingMode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OFFLINE</Value>
+    </Setting>
+    <Setting Name="SaveCOSTCOTraces" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GetCOSTCOTraces" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UseRxClass" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SavedDVITracesDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TblSavedDVITraces</Value>
+    </Setting>
+    <Setting Name="SavedOMATracesDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TblSavedOMATraces</Value>
+    </Setting>
+    <Setting Name="AuxVantageServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.35.23</Value>
+    </Setting>
+    <Setting Name="DSNGuiador" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GUIADOR</Value>
+    </Setting>
+    <Setting Name="InventoryON" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AugenDB" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MfgSys803_Augen</Value>
+    </Setting>
+    <Setting Name="Optimizar" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GDEPTH" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="GWIDTH" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="PINB" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.1</Value>
+    </Setting>
+    <Setting Name="FPINB" Type="System.Single" Scope="Application">
+      <Value Profile="(Default)">0.1</Value>
+    </Setting>
+    <Setting Name="_PINONOF" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="_FPINONF" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="_ETYP2" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="POLISH" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="_VARINC" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="_VANGLE" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="_LCOAT" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="_AUTOBFR" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="_CKDOCUR" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="_NDOCUR" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="_CURVELV" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="_LPRESS" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">3000</Value>
+    </Setting>
+    <Setting Name="_CIRCON" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="_POLISH2" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="_FBFCANG" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="EnableBitacora" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="BEVP" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="BEVM" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="EnableOptisur" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CheckOptisurBeforePreview" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OptisurServerTimeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="RecapturaSP_ID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">27</Value>
+    </Setting>
+    <Setting Name="FrameError_ID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">28</Value>
+    </Setting>
+    <Setting Name="CadenaLiverpoolID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="CadenaCostcoID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="CadenaSanborns" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="CadenaWalmartID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="CadenaSuburbiaID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="CadenaVBPAMID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="LiverpoolRxLength" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="CostcoRxLength" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="FrameErrorSP_ID" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">11</Value>
+    </Setting>
+    <Setting Name="CheckFrameInventory" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SaveUniqueTraces" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="printPOinstead" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OffSetCuadoL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="OffSetCuadoR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="FNameAngulo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ANGULO</Value>
+    </Setting>
+    <Setting Name="FNameCuado" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CUADO</Value>
+    </Setting>
+    <Setting Name="IgnoraExistenciasInventario" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EditarClientes" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="vbCustomer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4332,4784,5856</Value>
+    </Setting>
+    <Setting Name="OMAEnabled" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="RxLength" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="QAEnabled" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DVIEnabled" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LocalServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.6.100</Value>
+    </Setting>
+    <Setting Name="Plant" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EnsLab</Value>
+    </Setting>
+    <Setting Name="HasMEIEdger" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MEI_JobsFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">y:\</Value>
+    </Setting>
+    <Setting Name="ZebraPrint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AskToPrint" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MEI_OMA_Service" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OptisurServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://192.168.35.79/augen/services/optisur</Value>
+    </Setting>
+    <Setting Name="InventoryFrameFamily" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">61,62,63</Value>
+    </Setting>
+    <Setting Name="FreeFormEnabled" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ReporteReceta1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NewRecetaVB2.rpt</Value>
+    </Setting>
+    <Setting Name="AjustesApertura" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DBCommandTimeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">40</Value>
+    </Setting>
+    <Setting Name="AugenServerConnection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=AugenSvrDB_AGN;Initial Catalog=MFGSys803_Augen;Persist Security Info=True;User ID=sa;Password=Proliant01;Connect Timeout=4&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=AugenSvrDB_AGN;Initial Catalog=MFGSys803_Augen;Persist Security Info=True;User ID=sa;Password=Proliant01;Connect Timeout=4</Value>
+    </Setting>
+    <Setting Name="IsVerBien" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CantWebOrders" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="CreateOrderTimeout" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="ConsumePastillaTimeout" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="ShowDebugMessages" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowTerminados" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowProcesados" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowMayor8" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CustNum_Fundaciones" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4784</Value>
+    </Setting>
+    <Setting Name="DefaultFrameMaterial" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="Bin" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MP01</Value>
+    </Setting>
+    <Setting Name="AugenBin" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MP01</Value>
+    </Setting>
+    <Setting Name="AugenCompany" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AUGEN</Value>
+    </Setting>
+    <Setting Name="TreceuxCompany" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TRECEUX</Value>
+    </Setting>
+    <Setting Name="ReceiveReasonCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">RSN01</Value>
+    </Setting>
+    <Setting Name="LambdaHombreFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">lambda-h.dxf</Value>
+    </Setting>
+    <Setting Name="LambdaMujerFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">lambda-m.dxf</Value>
+    </Setting>
+    <Setting Name="ZebraLabelFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TERM</Value>
+    </Setting>
+    <Setting Name="SkipConfirmations" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CheckToPrint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WHBIN_Temp_Qty" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="CheckLocalWebOrders" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EmailServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AUGENSVR12</Value>
+    </Setting>
+    <Setting Name="ZebraPrintPort" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\jgaribaldi01\Zebra</Value>
+    </Setting>
+    <Setting Name="OffSetAnguloL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">-0.4</Value>
+    </Setting>
+    <Setting Name="OffSetAnguloR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">-0.4</Value>
+    </Setting>
+    <Setting Name="OffSetGadoL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">-0.3</Value>
+    </Setting>
+    <Setting Name="OffSetGadoR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">-0.3</Value>
+    </Setting>
+    <Setting Name="FNameGado" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GADO FINAL PROJECT</Value>
+    </Setting>
+    <Setting Name="ERPMasterConnection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=AUGENSVR4;Initial Catalog=ERPMaster;Persist Security Info=True;User ID=sa;Password=Proliant01;Connect Timeout=4&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=AUGENSVR4;Initial Catalog=ERPMaster;Persist Security Info=True;User ID=sa;Password=Proliant01;Connect Timeout=4</Value>
+    </Setting>
+    <Setting Name="MFGSysConnection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=AUGENSVR4;Initial Catalog=MFGSys803;Persist Security Info=True;User ID=sa;Password=Proliant01;Connect Timeout=4&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=AUGENSVR4;Initial Catalog=MFGSys803;Persist Security Info=True;User ID=sa;Password=Proliant01;Connect Timeout=4</Value>
+    </Setting>
+    <Setting Name="LocalLab2000ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=labens01;Initial Catalog=LocalLab2000BackUp;Persist Security Info=True;User ID=sa;Password=Proliant01;Connect Timeout=20&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=labens01;Initial Catalog=LocalLab2000BackUp;Persist Security Info=True;User ID=sa;Password=Proliant01;Connect Timeout=20</Value>
+    </Setting>
+    <Setting Name="VantageServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AUGENSVR4</Value>
+    </Setting>
+    <Setting Name="OpticalProtocol" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DVI</Value>
+    </Setting>
+    <Setting Name="Isverbien_test" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AugenServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AUGENSVRDB_AGN</Value>
+    </Setting>
+    <Setting Name="UpdateRxTimeout" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">6</Value>
+    </Setting>
+    <Setting Name="LocalDBName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LocalLab2000BackUp</Value>
+    </Setting>
+    <Setting Name="WarehouseCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">verbien-test</Value>
+    </Setting>
+    <Setting Name="AugenPlant" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">verbien-test</Value>
+    </Setting>
+    <Setting Name="AugenWarehouseCode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">verbien-test</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

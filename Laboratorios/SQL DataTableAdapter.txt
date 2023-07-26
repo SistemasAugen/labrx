@@ -1,0 +1,16 @@
+UPDATE
+UPDATE       customer
+SET                name =@name, address1 =@address1, address2 =@address2, address3 =@address3, city =@city, state =@state, 
+                      zip =@zip, country =@country, resaleid =@resaleid, credithold =@credithold, faxnum =@faxnum, phonenum =@phonenum,
+                     number06 =@number06, number01 =@number01, date02 =getdate(), 
+                         checkbox01 =@checkbox01, checkbox04 =@checkbox04, emailaddress =@emailaddress
+WHERE COMPANY='TRECEUX' AND custid=@custid
+
+
+INSERT COMMAND
+INSERT INTO customer
+                         (custid, name, address1, address2, address3, city, state, zip, country, resaleid, credithold, number06, checkbox01, checkbox04, emailaddress, date01, number01)
+VALUES        (@custid,@name,@address1,@address2,@address3,@city,@state,@zip,@country,@resaleid,@credithold,@number06,@checkbox01,@checkbox04,@emailaddress,
+                          GETDATE(),@number01)
+
+MODIFICAR SQL PARA INCLUIR USO DE CUSTNUM COMO IDENTIFICADOR UNICO

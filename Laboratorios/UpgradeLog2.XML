@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Laboratorios Optisur">
+</Property><Property Name="Solution File" Value="C:\D\Laboratorios Optisur\Laboratorios Optisur.sln">
+</Property><Property Name="Date" Value="Wednesday, October 10, 2012">
+</Property><Property Name="Time" Value="11:13 AM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="Laboratorios" Source="Laboratorios.vbproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="Laboratorios" Source="Laboratorios.vbproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="CalcotV2" Source="..\Calcot - Optimizado\CalcotV2.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CalcotV2" Source="..\Calcot - Optimizado\CalcotV2.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Laboratorios Optisur.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="Laboratorios Optisur.sln" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="CalcotV2" Source="..\Calcot - Optimizado\CalcotV2.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

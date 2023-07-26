@@ -1,0 +1,93 @@
+<?xml version="1.0" standalone="yes"?>
+<Receta>
+  <RxBarCode>
+    <LadoDerecho>
+      <Esfera>1.75</Esfera>
+      <Cilindro>-0.75</Cilindro>
+      <Eje>115</Eje>
+      <AdicionR>2.50</AdicionR>
+      <Molde>NGRO400</Molde>
+      <Prisma />
+      <EjePrisma />
+      <Bloque>ORO6.50</Bloque>
+      <DH>-10</DH>
+      <DV>-5</DV>
+      <GrosCent>4.3</GrosCent>
+      <OMin>2.0</OMin>
+      <OMax>4.0</OMax>
+      <BaseR>5.50</BaseR>
+      <PotFinalR>D 1.75, -0.75</PotFinalR>
+      <MoldeExR>D 400-000</MoldeExR>
+      <MsgD />
+      <MoldeD_HD />
+      <MoldeED_HD>377-457</MoldeED_HD>
+      <AnilloD_HD>100-70</AnilloD_HD>
+      <BcnameD>ORO6.50</BcnameD>
+    </LadoDerecho>
+    <LadoIzquierdo>
+      <Esfera>1.5</Esfera>
+      <Cilindro>-0.5</Cilindro>
+      <Eje>80</Eje>
+      <AdicionL>2.50</AdicionL>
+      <Molde>NGRO400</Molde>
+      <Prisma />
+      <EjePrisma />
+      <Bloque>100-70</Bloque>
+      <DH>10</DH>
+      <DV>-5</DV>
+      <GrosCent>3.6</GrosCent>
+      <OMin>1.4</OMin>
+      <OMax>3.3</OMax>
+      <BaseL>5.50</BaseL>
+      <PotFinalL>I 1.5, -0.5</PotFinalL>
+      <MoldeExL>I 400-000</MoldeExL>
+      <MsgI />
+      <MoldeI_HD />
+      <MoldeEI_HD>403-456</MoldeEI_HD>
+      <AnilloI_HD>100-70</AnilloI_HD>
+      <BcnameI>ORO6.50</BcnameI>
+    </LadoIzquierdo>
+    <Generales>
+      <Rx>456903</Rx>
+      <PONumber>270176166</PONumber>
+      <RxLocal>456903</RxLocal>
+      <RxBarCode>{Nf$}</RxBarCode>
+      <Material>PARASOL</Material>
+      <Diseño>V.S. ESFERICO</Diseño>
+      <Cliente>3378 VENTA MOSTRADOR</Cliente>
+      <AltOblea>25</AltOblea>
+      <Mono>30-30</Mono>
+      <DipceDiple>60-58</DipceDiple>
+      <Armazon>Metal</Armazon>
+      <A>64.0</A>
+      <B>40.0</B>
+      <DBL>17.0</DBL>
+      <ED>66.0</ED>
+      <TinteColor />
+      <TinteNum />
+      <Gradiente />
+      <Biselado />
+      <AR />
+      <dip>60-58</dip>
+      <dia>VIERNES</dia>
+      <abrillantado />
+      <lote>A00-04</lote>
+      <horasalida>12:00 AM</horasalida>
+      <fechasalida>Jun/4</fechasalida>
+      <rxident>*4569*</rxident>
+      <trivex />
+      <fechaent>Jun/4</fechaent>
+      <horaent>11:55 AM</horaent>
+      <ordernum>270176166</ordernum>
+      <ColorSL />
+      <Comentarios />
+      <SpecialLabel />
+      <SpecialDesign>F.F. [AP - 13/17 FRESH]</SpecialDesign>
+    </Generales>
+    <Dinero>
+      <IVApercent>0</IVApercent>
+      <Concepto />
+      <PU>0</PU>
+    </Dinero>
+  </RxBarCode>
+</Receta>

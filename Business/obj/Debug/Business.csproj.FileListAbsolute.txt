@@ -1,0 +1,11 @@
+C:\Ale\LRLBBF003\Business\bin\Debug\Business.dll
+C:\Ale\LRLBBF003\Business\bin\Debug\Business.pdb
+C:\Ale\LRLBBF003\Business\obj\Debug\Business.dll
+C:\Ale\LRLBBF003\Business\obj\Debug\Business.pdb
+C:\Ale\LRLBBF003\Business\bin\Debug\Commons.dll
+C:\Ale\LRLBBF003\Business\bin\Debug\DataAccess.dll
+C:\Ale\LRLBBF003\Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Ale\LRLBBF003\Business\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Ale\LRLBBF003\Business\bin\Debug\Commons.pdb
+C:\Ale\LRLBBF003\Business\bin\Debug\DataAccess.pdb
+C:\Ale\LRLBBF003\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache

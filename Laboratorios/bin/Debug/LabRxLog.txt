@@ -1,0 +1,14 @@
+5/2/2022 5:15:37 PM : Error al crear la orden. 
+Ocurrio una Excepcion al crear la Orden...
+Invalid object name 'VwPriceListByGroup'.
+Transaction count after EXECUTE indicates that a COMMIT or ROLLBACK TRANSACTION statement is missing. Previous count = 1, current count = 2. Server: [192.168.35.24]
+5/2/2022 5:28:09 PM : Error al crear la orden. 
+!!! No fue posible crear la orden de venta , Es necesario capturarla de nuevo !!!
+5/2/2022 5:29:20 PM : Error al crear la orden. 
+!!! No fue posible crear la orden de venta , Es necesario capturarla de nuevo !!!
+5/3/2022 8:56:11 AM : Error al crear la orden. 
+!!! No fue posible crear la orden de venta , Es necesario capturarla de nuevo !!!
+5/3/2022 9:49:41 AM : Error al crear la orden. 
+!!! No fue posible crear la orden de venta , Es necesario capturarla de nuevo !!!
+5/3/2022 10:15:23 AM : Error al crear la orden. 
+!!! No fue posible crear la orden de venta , Es necesario capturarla de nuevo !!!

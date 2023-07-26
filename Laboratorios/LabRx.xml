@@ -1,0 +1,88 @@
+<?xml version="1.0" standalone="yes"?>
+<Receta>
+  <RxBarCode>
+    <LadoDerecho>
+      <Esfera>1</Esfera>
+      <Cilindro>-2.75</Cilindro>
+      <Eje />
+      <AdicionR />
+      <Molde />
+      <Prisma />
+      <EjePrisma />
+      <Bloque />
+      <DH>-1</DH>
+      <DV>0</DV>
+      <GrosCent>2.0</GrosCent>
+      <OMin>1.5</OMin>
+      <OMax>2.3</OMax>
+      <BaseR>4.00</BaseR>
+      <PotFinalR />
+      <MoldeExR />
+      <MsgD />
+      <MoldeD_HD>350-200</MoldeD_HD>
+      <MoldeED_HD>312-560</MoldeED_HD>
+      <AnilloD_HD>60-55</AnilloD_HD>
+      <MCentroD />
+      <BCnameD>NGRO4.50</BCnameD>
+    </LadoDerecho>
+    <LadoIzquierdo>
+      <Esfera>1.25</Esfera>
+      <Cilindro>-2.25</Cilindro>
+      <Eje />
+      <AdicionL />
+      <Molde />
+      <Prisma />
+      <EjePrisma />
+      <Bloque />
+      <DH>1</DH>
+      <DV>0</DV>
+      <GrosCent>2.2</GrosCent>
+      <OMin>1.4</OMin>
+      <OMax>2.3</OMax>
+      <BaseL>4.00</BaseL>
+      <PotFinalL />
+      <MoldeExL />
+      <MsgI />
+      <MoldeI_HD>350-200</MoldeI_HD>
+      <MoldeEI_HD>287-485</MoldeEI_HD>
+      <AnilloI_HD>60-55</AnilloI_HD>
+      <MCentroI />
+      <BCnameI>NGRO4.50</BCnameI>
+    </LadoIzquierdo>
+    <Generales>
+      <Rx>752771</Rx>
+      <RxLocal>752771</RxLocal>
+      <RxBarCode>{l&lt;h}</RxBarCode>
+      <Material>TRIVEX</Material>
+      <Diseño>TRINITY ASFERICO</Diseño>
+      <Cliente>26041 VELASCO ROBLES PEDRO</Cliente>
+      <AltOblea>14</AltOblea>
+      <DipceDiple>63-61</DipceDiple>
+      <Armazon>Metal</Armazon>
+      <A>48.4</A>
+      <B>28.1</B>
+      <DBL>17.0</DBL>
+      <ED>49.8</ED>
+      <TinteColor />
+      <TinteNum />
+      <Gradiente />
+      <Biselado>BISELADO</Biselado>
+      <AR />
+      <dip>63-61</dip>
+      <dia>MARTES</dia>
+      <abrillantado />
+      <lote>A04-08</lote>
+      <horasalida>12:29 PM</horasalida>
+      <fechasalida>Jul/3</fechasalida>
+      <rxident>*7527*</rxident>
+      <trivex>TRIVEX</trivex>
+      <fechaent>Jul/3</fechaent>
+      <horaent>8:29 AM</horaent>
+      <ordernum>260135434</ordernum>
+      <ColorSL />
+      <Comentarios />
+      <SpecialLabel />
+      <SpecialDesign />
+    </Generales>
+  </RxBarCode>
+</Receta>

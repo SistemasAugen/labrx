@@ -1,0 +1,1079 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Laboratorios
+</name>
+</assembly>
+<members>
+<member name="P:Laboratorios.Job.jobNumber">
+	<remarks/>
+</member><member name="P:Laboratorios.Job.JobItem">
+	<remarks/>
+</member><member name="P:Laboratorios.Job.DesignId">
+	<remarks/>
+</member><member name="P:Laboratorios.Job.NVFL">
+	<remarks/>
+</member><member name="P:Laboratorios.Job.Item">
+	<remarks/>
+</member><member name="T:Laboratorios.Job">
+	<remarks/>
+</member><member name="P:Laboratorios.JobItem.jobSide">
+	<remarks/>
+</member><member name="P:Laboratorios.JobItem.Blank">
+	<remarks/>
+</member><member name="P:Laboratorios.JobItem.Lens">
+	<remarks/>
+</member><member name="T:Laboratorios.JobItem">
+	<remarks/>
+</member><member name="P:Laboratorios.Blank.Item">
+	<remarks/>
+</member><member name="T:Laboratorios.Blank">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDescr.matName">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDescr.nomFCurve">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDescr.nomFCurveSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDescr.matVCA">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDescr.diam">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDescr.frontCurve">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDescr.backCurve">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDescr.cenThick">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDescr.matIndex">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDescr.minCThk">
+	<remarks/>
+</member><member name="T:Laboratorios.LensDescr">
+	<remarks/>
+</member><member name="P:Laboratorios.AccountRef.reference">
+	<remarks/>
+</member><member name="P:Laboratorios.AccountRef.date">
+	<remarks/>
+</member><member name="P:Laboratorios.AccountRef.desId">
+	<remarks/>
+</member><member name="P:Laboratorios.AccountRef.desName">
+	<remarks/>
+</member><member name="P:Laboratorios.AccountRef.buyed">
+	<remarks/>
+</member><member name="P:Laboratorios.AccountRef.used">
+	<remarks/>
+</member><member name="P:Laboratorios.AccountRef.Job">
+	<remarks/>
+</member><member name="T:Laboratorios.AccountRef">
+	<remarks/>
+</member><member name="P:Laboratorios.DesignPAL.desId">
+	<remarks/>
+</member><member name="P:Laboratorios.DesignPAL.name">
+	<remarks/>
+</member><member name="P:Laboratorios.DesignPAL.lnam">
+	<remarks/>
+</member><member name="P:Laboratorios.DesignPAL.engrDist">
+	<remarks/>
+</member><member name="P:Laboratorios.DesignPAL.engrNear">
+	<remarks/>
+</member><member name="P:Laboratorios.DesignPAL.engrMRP">
+	<remarks/>
+</member><member name="P:Laboratorios.DesignPAL.classfId">
+	<remarks/>
+</member><member name="P:Laboratorios.DesignPAL.classfIdSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.DesignPAL.svg">
+	<remarks/>
+</member><member name="T:Laboratorios.DesignPAL">
+	<remarks/>
+</member><member name="P:Laboratorios.DistXY.x">
+	<remarks/>
+</member><member name="P:Laboratorios.DistXY.y">
+	<remarks/>
+</member><member name="T:Laboratorios.DistXY">
+	<remarks/>
+</member><member name="P:Laboratorios.DesignSV.desId">
+	<remarks/>
+</member><member name="P:Laboratorios.DesignSV.name">
+	<remarks/>
+</member><member name="P:Laboratorios.DesignSV.lnam">
+	<remarks/>
+</member><member name="T:Laboratorios.DesignSV">
+	<remarks/>
+</member><member name="P:Laboratorios.Design.Item">
+	<remarks/>
+</member><member name="T:Laboratorios.Design">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplPattern.side">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplPattern.diam">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplPattern.crib">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplPattern.heigth">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplPattern.heigthSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplPattern.displ">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplPattern.descentering">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplPattern.LRP">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplPattern.segWd">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplPattern.segWdSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplPattern.segHt">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplPattern.segHtSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplPattern.notice">
+	<remarks/>
+</member><member name="T:Laboratorios.DisplPattern">
+	<remarks/>
+</member><member name="P:Laboratorios.PowerP.point">
+	<remarks/>
+</member><member name="P:Laboratorios.PowerP.sph">
+	<remarks/>
+</member><member name="P:Laboratorios.PowerP.cyl">
+	<remarks/>
+</member><member name="P:Laboratorios.PowerP.cylSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.PowerP.axis">
+	<remarks/>
+</member><member name="P:Laboratorios.PowerP.axisSpecified">
+	<remarks/>
+</member><member name="T:Laboratorios.PowerP">
+	<remarks/>
+</member><member name="P:Laboratorios.Thickness.thk">
+	<remarks/>
+</member><member name="P:Laboratorios.Thickness.angle">
+	<remarks/>
+</member><member name="T:Laboratorios.Thickness">
+	<remarks/>
+</member><member name="P:Laboratorios.BlockCurve.bCName">
+	<remarks/>
+</member><member name="P:Laboratorios.BlockCurve.curve">
+	<remarks/>
+</member><member name="T:Laboratorios.BlockCurve">
+	<remarks/>
+</member><member name="P:Laboratorios.Block.blockName">
+	<remarks/>
+</member><member name="P:Laboratorios.Block.diameter">
+	<remarks/>
+</member><member name="P:Laboratorios.Block.edgeHeigth">
+	<remarks/>
+</member><member name="P:Laboratorios.Block.BlockCurve">
+	<remarks/>
+</member><member name="T:Laboratorios.Block">
+	<remarks/>
+</member><member name="P:Laboratorios.CurvePower.referenceIndex">
+	<remarks/>
+</member><member name="P:Laboratorios.CurvePower.referenceIndexSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.CurvePower.power">
+	<remarks/>
+</member><member name="T:Laboratorios.CurvePower">
+	<remarks/>
+</member><member name="P:Laboratorios.Profiles.profName">
+	<remarks/>
+</member><member name="P:Laboratorios.Profiles.base">
+	<remarks/>
+</member><member name="P:Laboratorios.Profiles.cross">
+	<remarks/>
+</member><member name="T:Laboratorios.Profiles">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsg.side">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsg.genSurf">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsg.lapSurf">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsg.ringSurf">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsg.Prism">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsg.cenThk">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsg.minEThk">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsg.maxEthk">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsg.powDsgDRP">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsg.powDsgNRP">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsg.adicDsg">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsg.adicDsgSpecified">
+	<remarks/>
+</member><member name="T:Laboratorios.LensDsg">
+	<remarks/>
+</member><member name="P:Laboratorios.Prism.diop">
+	<remarks/>
+</member><member name="P:Laboratorios.Prism.axis">
+	<remarks/>
+</member><member name="T:Laboratorios.Prism">
+	<remarks/>
+</member><member name="P:Laboratorios.Pattern.Frame">
+	<remarks/>
+</member><member name="P:Laboratorios.Pattern.sizing">
+	<remarks/>
+</member><member name="P:Laboratorios.Pattern.curve">
+	<remarks/>
+</member><member name="P:Laboratorios.Pattern.rad">
+	<remarks/>
+</member><member name="T:Laboratorios.Pattern">
+	<remarks/>
+</member><member name="P:Laboratorios.Frame.frameType">
+	<remarks/>
+</member><member name="P:Laboratorios.Frame.dbl">
+	<remarks/>
+</member><member name="P:Laboratorios.Frame.distPD">
+	<remarks/>
+</member><member name="P:Laboratorios.Frame.nearPD">
+	<remarks/>
+</member><member name="P:Laboratorios.Frame.bvdist">
+	<remarks/>
+</member><member name="P:Laboratorios.Frame.bvdistSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.Frame.panto">
+	<remarks/>
+</member><member name="P:Laboratorios.Frame.pantoSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.Frame.zxtilt">
+	<remarks/>
+</member><member name="P:Laboratorios.Frame.zxtiltSpecified">
+	<remarks/>
+</member><member name="T:Laboratorios.Frame">
+	<remarks/>
+</member><member name="P:Laboratorios.GeoFrame.Frame">
+	<remarks/>
+</member><member name="P:Laboratorios.GeoFrame.hrzBox">
+	<remarks/>
+</member><member name="P:Laboratorios.GeoFrame.vrtBox">
+	<remarks/>
+</member><member name="P:Laboratorios.GeoFrame.efDiam">
+	<remarks/>
+</member><member name="P:Laboratorios.GeoFrame.edAxis">
+	<remarks/>
+</member><member name="P:Laboratorios.GeoFrame.edAxisSpecified">
+	<remarks/>
+</member><member name="T:Laboratorios.GeoFrame">
+	<remarks/>
+</member><member name="P:Laboratorios.NVFL.intmdNearWD">
+	<remarks/>
+</member><member name="P:Laboratorios.NVFL.intmdFarWD">
+	<remarks/>
+</member><member name="T:Laboratorios.NVFL">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.sphere">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.cylinder">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.axis">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.addition">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.Prism">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.prThinOk">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.prThinOkSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.crib">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.cribSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.cenThick">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.cenThickSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.edgThick">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.edgThickSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.monoPD">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.monoPDSpecified">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.segHeigth">
+	<remarks/>
+</member><member name="P:Laboratorios.Lens.segHeigthSpecified">
+	<remarks/>
+</member><member name="T:Laboratorios.Lens">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsgd.LensDsg">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsgd.DisplPattern">
+	<remarks/>
+</member><member name="P:Laboratorios.LensDsgd.GeoFrame">
+	<remarks/>
+</member><member name="T:Laboratorios.LensDsgd">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplFrame.DisplPattern">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplFrame.GeoFrame">
+	<remarks/>
+</member><member name="P:Laboratorios.DisplFrame.Pattern">
+	<remarks/>
+</member><member name="T:Laboratorios.DisplFrame">
+	<remarks/>
+</member><member name="P:Laboratorios.Designs.Design">
+	<remarks/>
+</member><member name="T:Laboratorios.Designs">
+	<remarks/>
+</member><member name="P:Laboratorios.AccountReq.finaldate">
+	<remarks/>
+</member><member name="P:Laboratorios.AccStatement.AccStatus">
+	<remarks/>
+</member><member name="T:Laboratorios.AccStatement">
+	<remarks/>
+</member><member name="M:Laboratorios.PreviewArmazon.#ctor(System.Boolean,Laboratorios.OMAFile@,System.Int32,System.Single,System.Single)">
+	<summary>
+ Crea un objeto de tipo Preview.
+ </summary>
+	<param name="IsChangingTrace">True/False si se está modificando el trazo o no.</param>
+	<param name="MyOMA">Objeto tipo OMAFile para guardar información para la biseladora MEI.</param>
+	<param name="SpceialDesign">Tipo de diseño para generar o no información para Optisur.</param>
+	<param name="DIPLejos">Distancia Interpupilar para vista normal.</param>
+	<param name="DIPCerca">Distancia Interpupilar para vista de cerca.</param>
+	<remarks></remarks>
+</member><member name="F:Laboratorios.SqlDB.server">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="T:Laboratorios.LocalLab2000DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="M:Laboratorios.Recibo.InsertLocalTfShipDtl(System.Data.DataSet,System.String,System.String)">
+	<summary>
+ Inserta Localmente los registros en la tabla TfShipDtl (Detalles de trasnferencias TRECEUX)
+ </summary>
+	<param name="pedido">Dataset de los detalles de la transferencia.</param>
+	<param name="company">Compañia de donde se hace la trasnferencia.</param>
+	<param name="packnum">Embarque al que se le dara recepcion.</param>
+	<remarks></remarks>
+</member><member name="T:Laboratorios.verbienDataSet.customerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Laboratorios.verbienDataSet.customerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Laboratorios.verbienDataSet.customerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Laboratorios.verbienDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Laboratorios.verbienDataSetTableAdapters.customerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Laboratorios.verbienDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Laboratorios.verbienDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Laboratorios.verbienDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Laboratorios.verbienDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Laboratorios.verbienDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Laboratorios.verbienDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Laboratorios.verbienDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Laboratorios.verbienDataSetTableAdapters.TableAdapterManager.UpdateAll(Laboratorios.verbienDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Laboratorios.verbienDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Laboratorios.verbienDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Laboratorios.verbienDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources._error">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.ContornoManual">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.edit_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.Exclamation">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.FONDO">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.greenbolis">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.greenbolis_h">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.greenbolis1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.greencirclet">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.help48">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.ico_error">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.info">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.Lens">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.Lens_Error">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.Lens_Error_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.Lens_NoInventory_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.Lens_OK">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.Lens_OK_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.Lens_Over">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.Lens_Over_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.light">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.redbolis">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.redbolis_h">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.redbolis2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.Sign_Download">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaAugen">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaBackground">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaButton">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaClientes">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaComments">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaConfirmacion">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaConnected">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaContorno">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaContornoBox">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaDIPS">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaDisconnected">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaEjecutar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaFONDO">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaGreenH">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaGreenV">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaLeftEyePanel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaLeftEyePanelSelected">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaOblea">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaPanelError">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaPideRx">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaPrescripcion">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaPrescripcionBackground">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaPreview">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaPrismas">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaProcessEfficieny">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaProcessEfficieny2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaProcessEfficienyNew">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaRedH">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaRedH1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaRedV">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaRightEyePanel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaRightEyePanelSelected">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaRx">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.VistaRxVantage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Laboratorios.My.Resources.Resources.Warning">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Laboratorios.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Laboratorios.NewCalcot.ValidateSchema">
+	<summary>
+ Validates a XML File against a Schema
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.SchemaReadError(System.Object,System.Xml.Schema.ValidationEventArgs)">
+	<summary>
+ Returns Error in a Schema Validation
+ </summary>
+	<param name="sender"></param>
+	<param name="args"></param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.#ctor(System.Boolean,Laboratorios.NewCalcot.Eyes)">
+	<summary>
+ Creates a new Object of type NewCalcot
+ </summary>
+	<param name="Manual">Frame Radius Type</param>
+	<param name="SelectEyes">Selected Eyes</param>
+	<remarks></remarks>
+</member><member name="P:Laboratorios.NewCalcot.JobNumber">
+	<summary>
+ JobNumber
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Laboratorios.NewCalcot.DesignID">
+	<summary>
+ DesignID
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Laboratorios.NewCalcot.IsManual">
+	<summary>
+ Is Manual Frame
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.SetLeftItem(System.String,System.Double,System.Single,System.Int32,System.Single,System.Single,System.Int32,System.Single,System.Single)">
+	<summary>
+ Set Info for the Left Item
+ </summary>
+	<param name="OPC">Part Number</param>
+	<param name="sph">Sphere</param>
+	<param name="cyl">Cylinder</param>
+	<param name="axis">Axis</param>
+	<param name="add">Addition</param>
+	<param name="prism_diop">Prism Diopts</param>
+	<param name="prism_axis">Prism Axis</param>
+	<param name="monoDIP">Mono DIP</param>
+	<param name="height">Height</param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.SetRightItem(System.String,System.Double,System.Double,System.Int32,System.Double,System.Double,System.Int32,System.Double,System.Double)">
+	<summary>
+ Set Info for the Right Item
+ </summary>
+	<param name="OPC">Part Number</param>
+	<param name="sph">Sphere</param>
+	<param name="cyl">Cylinder</param>
+	<param name="axis">Axis</param>
+	<param name="add">Addition</param>
+	<param name="prism_diop">Prism Diopts</param>
+	<param name="prism_axis">Prism Axis</param>
+	<param name="monoDIP">Mono DIP</param>
+	<param name="height">Height</param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.SetGeoFrame(System.Int32,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+	<summary>
+ Add Info for Manual Traces
+ </summary>
+	<param name="FrameType">0=undefined, 1=Plastic, 2=Metal, 3=Rimless, 4=Optyl</param>
+	<param name="DBL">Bridge</param>
+	<param name="DIP">Interpupilar Distance</param>
+	<param name="nearDIP">Near Interpupilar Distance</param>
+	<param name="hrz">A</param>
+	<param name="vrt">B</param>
+	<param name="diam">ED</param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.SetPattern(System.Int32,System.Double,System.Double,System.Double,System.Int32,System.Double,System.String)">
+	<summary>
+ Add Info for Digital Traces
+ </summary>
+	<param name="FrameType">0=undefined, 1=Plastic, 2=Metal, 3=Rimless, 4=Optyl</param>
+	<param name="DBL">Bridge</param>
+	<param name="DIP">Interpupilar Distance</param>
+	<param name="nearDIP">Near Interpupilar Distance</param>
+	<param name="sizing">Sizing</param>
+	<param name="curve">Curve</param>
+	<param name="radius">512 Radius [Format: r001,r002,r003,....,r512]</param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.SetPattern(System.Int32,System.Double,System.Double,System.Double,System.Int32,System.Double,System.Int32[])">
+	<summary>
+ Add Info for Digital Traces
+ </summary>
+	<param name="FrameType">0=undefined, 1=Plastic, 2=Metal, 3=Rimless, 4=Optyl</param>
+	<param name="DBL">Bridge</param>
+	<param name="DIP">Interpupilar Distance</param>
+	<param name="nearDIP">Near Interpupilar Distance</param>
+	<param name="sizing">Sizing</param>
+	<param name="curve">Curve</param>
+	<param name="radius">An array of integer values that represents the radius</param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.GenerateAccountXML(System.String)">
+	<summary>
+ Generates an XML File from a AccReq class with the Account item
+ </summary>
+	<param name="filename"></param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.GenerateXML(System.String)">
+	<summary>
+ Generates an XML File from a Job class with the MyJob item
+ </summary>
+	<param name="filename">Destination</param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.Serialize(System.String,System.Object)">
+	<summary>
+ Serializes a class into an XML File
+ </summary>
+	<param name="filename">Destination File</param>
+	<param name="MyJob">Source class</param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.DeSerialize(System.String,Laboratorios.Job@)">
+	<summary>
+ DeSerializes an XML File into a Job Class object
+ </summary>
+	<param name="filename">XML File</param>
+	<param name="MyJob">The Job Class object that will store the data</param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.DeSerialize(System.String,Laboratorios.LensDsgd@)">
+	<summary>
+ DeSerializes an XML File into a LensDsgd Class object
+ </summary>
+	<param name="filename">XML File</param>
+	<param name="MyJob">The LensDsgd Class object that will store the data</param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.DeSerialize(System.String,Laboratorios.DisplFrame@)">
+	<summary>
+ DeSerializes an XML File into a Displacement Class object
+ </summary>
+	<param name="filename">XML File</param>
+	<param name="MyJob">The Displacement Class object that will store the data</param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.ProcessDSGDResponse(System.String)">
+	<summary>
+ Process a XML Response File of a LensDSG Request and returns as a String
+ </summary>
+	<param name="filename">XML File</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.ProcessAccReqResponse(System.String)">
+	<summary>
+ Process a XML Response File of a AccReq Request and returns as a String
+ </summary>
+	<param name="filename"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.ProcessDisplFrameResponse(System.String)">
+	<summary>
+ Process a XML Response File of a Displ Request and returns as a String
+ </summary>
+	<param name="filename"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.sendXML(System.Xml.XmlDocument,System.String,System.String)">
+	<summary>
+ Sends a XML Request to the Optisur Webservice
+ </summary>
+	<param name="xmlDoc">XML Request</param>
+	<param name="strURL">URL of the Optisur Webservice</param>
+	<param name="Method">Method to be called (LensDsg|Displ)</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.SendDSGRequest(System.String)">
+	<summary>
+ Sends a LensDsg Request to the Optisur Webservice
+ </summary>
+	<param name="fromfilename">XML File</param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.SendCalculaRequest(System.String)">
+	<summary>
+ Sends a calcula Request to the Optisur Webservice
+ </summary>
+	<param name="fromfilename">XML File</param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.SendDisplacementRequest(System.String)">
+	<summary>
+ Sends a Displacement Request to the Optisur Webservice
+ </summary>
+	<param name="fromfilename">XML File</param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.GetSpecialDesignsTable">
+	<summary>
+ Returns a DataTable with the Special Designs Items Available to Order
+ </summary>
+	<returns>DataTable</returns>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.SetReceivedLensDsgObjects">
+	<summary>
+ Sets the corresponding LensDSG Objects received from the Optisur Webservice
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.SetReceivedDisplacementObjects">
+	<summary>
+ Sets the corresponding DisplPattern Objects received from the Optisur Webservice
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.GetCalculos(Laboratorios.NewCalcot.CalculationOption)">
+	<summary>
+ Sends the request to the Optisur Webservice and stores the requested informacion in a LensDSG Object
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.GetContorno">
+	<summary>
+ Sends the request to the Optisur Webservice and stores the requested informacion in a Displ Object
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.GetRadios">
+	<summary>
+ Returns an Array of 512 radius of the frame received from the Optisur Webservice
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Laboratorios.NewCalcot.LensDsgRight">
+	<summary>
+ Returns de Right Lens Calculations
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Laboratorios.NewCalcot.LensDsgLeft">
+	<summary>
+ Returns de Left Lens Calculations
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Laboratorios.NewCalcot.DisplLeft">
+	<summary>
+ Returns the Left Displacement Values
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Laboratorios.NewCalcot.DisplRight">
+	<summary>
+ Returns the Right Displacement Values
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.SetLeftHeight(System.Single)">
+	<summary>
+ Sets the New Left Lens Height for new calculations
+ </summary>
+	<param name="Height"></param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.SetRightHeight(System.Single)">
+	<summary>
+ Sets the New Right Lens Height for new calculations
+ </summary>
+	<param name="Height"></param>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.NewCalcot.GetDrawingDesign(System.String)">
+	<summary>
+ Returns the Drawing Design of a partnum (Monofocal|Flat Top|Progressive)
+ </summary>
+	<param name="partnum">Part Number</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Laboratorios.NewCalcot.LeftDrawingDesign">
+	<summary>
+ Returns the Left Lens Drawing Design
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Laboratorios.NewCalcot.RightDrawingDesign">
+	<summary>
+ Returns the Right Lens Drawing Design
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Laboratorios.NewCalcot.ErrorCode">
+	<summary>
+ Returns the Actual Error Code
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Laboratorios.NewCalcot.ErrorDescription">
+	<summary>
+ Returns the Actual Error Description
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Laboratorios.NewCalcot.GeoFrame">
+	<summary>
+ Returns the GeoFrame object
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Laboratorios.DataSet_clientes_saldo.VwSaldoClientesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Laboratorios.DataSet_clientes_saldo.VwSaldoClientesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Laboratorios.DataSet_clientes_saldo.VwSaldoClientesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Laboratorios.DataSet_clientes_saldo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Laboratorios.DataSet_clientes_saldoTableAdapters.VwSaldoClientesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Laboratorios.DataSet_clientes_saldoTableAdapters.TableAdapterManager.UpdateUpdatedRows(Laboratorios.DataSet_clientes_saldo,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Laboratorios.DataSet_clientes_saldoTableAdapters.TableAdapterManager.UpdateInsertedRows(Laboratorios.DataSet_clientes_saldo,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Laboratorios.DataSet_clientes_saldoTableAdapters.TableAdapterManager.UpdateDeletedRows(Laboratorios.DataSet_clientes_saldo,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Laboratorios.DataSet_clientes_saldoTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Laboratorios.DataSet_clientes_saldoTableAdapters.TableAdapterManager.UpdateAll(Laboratorios.DataSet_clientes_saldo)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Laboratorios.DataSet_clientes_saldoTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Laboratorios.DataSet_clientes_saldoTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Laboratorios.DataSet_clientes_saldoTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="M:Laboratorios.GenerarRx.GetMoldeDerInfo">
+	<summary>
+ Returns a ReturnMoldeDer object with the Right Info
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.GenerarRx.GetMoldeIzqInfo">
+	<summary>
+ Returns a ReturnMoldeIzq object with the Left Info
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.GenerarRx.GetLD">
+	<summary>
+ Returns a SetLadoDerecho Object with the Right Info
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.GenerarRx.GetLI">
+	<summary>
+ Returns a SetLadoDerecho Object with the Left Info
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.GenerarRx.GetFormaD">
+	<summary>
+ Returns a ReturnLadoDer object with the Right Info
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Laboratorios.GenerarRx.GetFormaI">
+	<summary>
+ Returns a ReturnLadoIzq Object with the Left Info
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:Laboratorios.Sql_AperturasVB.mySql">
+ Operaciones de SQL para las aperturas de VB y BINS
+
+</member><member name="M:Laboratorios.Sql_AperturasVB.GuardaOrdenBinEsc(System.Int32,System.Int32,System.String,System.String,System.String)">
+	<summary>
+ Guarda la orden, el bin y la escuela en la tabla WHBIN_RX para una consulta rápida
+ </summary>
+	<returns>Regresa -1 si hubo un error. En éxito regresa el número de registros afectados</returns>
+	<remarks>Normalmente debería ser 1</remarks>
+</member>
+</members>
+</doc>

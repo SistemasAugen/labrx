@@ -1,0 +1,4 @@
+C:\Ale\LRLBBF003\Commons\bin\Debug\Commons.dll
+C:\Ale\LRLBBF003\Commons\bin\Debug\Commons.pdb
+C:\Ale\LRLBBF003\Commons\obj\Debug\Commons.dll
+C:\Ale\LRLBBF003\Commons\obj\Debug\Commons.pdb

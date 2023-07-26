@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LensDsgd>
+      <LensDsg >
+        <side>right</side>
+        <genSurf>
+          <base>
+            <power>  4.06</power>
+          </base>
+          <cross>
+            <power>  4.06</power>
+          </cross>
+        </genSurf>
+        <lapSurf>
+          <profName>NGRO400</profName>
+          <base>
+            <power>  4.00</power>
+          </base>
+          <cross>
+            <power>  0.00</power>
+          </cross>
+        </lapSurf>
+        <ringSurf>
+          <blockName>ANILLO 90-70</blockName>
+          <diameter>70.00</diameter>
+          <edgeHeigth> 9.00</edgeHeigth>
+        </ringSurf>
+        <Prism>
+          <diop> 0.00</diop>
+          <axis>  0.00</axis>
+        </Prism>
+        <cenThk> 2.34</cenThk>
+        <minEThk>
+          <thk> 2.15</thk>
+          <angle>207.42</angle>
+        </minEThk>
+        <maxEthk>
+          <thk> 2.40</thk>
+          <angle>146.25</angle>
+        </maxEthk>
+        <powDsgDRP>
+          <point>
+            <x>   0.00</x>
+            <y>   8.00</y>
+          </point>
+          <sph> -0.03</sph>
+          <cyl> -0.00</cyl>
+          <axis>  90.0</axis>
+        </powDsgDRP>
+        <powDsgNRP>
+          <point>
+            <x>   2.50</x>
+            <y> -13.00</y>
+          </point>
+          <sph>  0.67</sph>
+          <cyl> -0.03</cyl>
+          <axis> 106.5</axis>
+        </powDsgNRP>
+        <adicDsg>0.70</adicDsg>
+      </LensDsg>
+      <LensDsg >
+        <side>left</side>
+        <genSurf>
+          <base>
+            <power>  4.06</power>
+          </base>
+          <cross>
+            <power>  4.06</power>
+          </cross>
+        </genSurf>
+        <lapSurf>
+          <profName>NGRO400</profName>
+          <base>
+            <power>  4.00</power>
+          </base>
+          <cross>
+            <power>  0.00</power>
+          </cross>
+        </lapSurf>
+        <ringSurf>
+          <blockName>ANILLO 90-70</blockName>
+          <diameter>70.00</diameter>
+          <edgeHeigth> 9.00</edgeHeigth>
+        </ringSurf>
+        <Prism>
+          <diop> 0.00</diop>
+          <axis>  0.00</axis>
+        </Prism>
+        <cenThk> 2.34</cenThk>
+        <minEThk>
+          <thk> 2.15</thk>
+          <angle>333.28</angle>
+        </minEThk>
+        <maxEthk>
+          <thk> 2.40</thk>
+          <angle> 32.34</angle>
+        </maxEthk>
+        <powDsgDRP>
+          <point>
+            <x>   0.00</x>
+            <y>   8.00</y>
+          </point>
+          <sph> -0.03</sph>
+          <cyl> -0.00</cyl>
+          <axis>  90.0</axis>
+        </powDsgDRP>
+        <powDsgNRP>
+          <point>
+            <x>  -2.50</x>
+            <y> -13.00</y>
+          </point>
+          <sph>  0.67</sph>
+          <cyl> -0.03</cyl>
+          <axis>  73.5</axis>
+        </powDsgNRP>
+        <adicDsg>0.70</adicDsg>
+      </LensDsg>
+      <DisplPattern >
+        <side>right</side>
+        <diam>75</diam>
+        <crib>74.00</crib>
+        <heigth>18.87</heigth>
+        <displ>
+          <x>  -4.50</x>
+          <y>   0.00</y>
+        </displ>
+        <LRP>
+          <x>   0.00</x>
+          <y>   4.00</y>
+        </LRP>
+        <segWd>10.00</segWd>
+        <segHt>10.00</segHt>
+        <notice>Lente sale</notice>
+      </DisplPattern>
+      <DisplPattern >
+        <side>left</side>
+        <diam>75</diam>
+        <crib>74.00</crib>
+        <heigth>18.88</heigth>
+        <displ>
+          <x>   4.50</x>
+          <y>   0.00</y>
+        </displ>
+        <LRP>
+          <x>   0.00</x>
+          <y>   4.00</y>
+        </LRP>
+        <segWd>10.00</segWd>
+        <segHt>10.00</segHt>
+        <notice>Lente sale</notice>
+      </DisplPattern>
+    </LensDsgd>

@@ -1,0 +1,113 @@
+<?xml version="1.0" standalone="yes"?>
+<Receta>
+  <RxBarCode>
+    <LadoDerecho>
+      <Esfera>0</Esfera>
+      <Cilindro>0</Cilindro>
+      <Eje />
+      <AdicionR />
+      <Molde>NGRO400</Molde>
+      <Prisma />
+      <EjePrisma />
+      <Bloque />
+      <DH>-4</DH>
+      <DV>0</DV>
+      <GrosCent>2.3</GrosCent>
+      <OMin>2.2</OMin>
+      <OMax>2.4</OMax>
+      <BaseR>4.00</BaseR>
+      <PotFinalR>D 0, 0</PotFinalR>
+      <MoldeExR>D 400-000</MoldeExR>
+      <MsgD />
+      <MoldeD_HD />
+      <MoldeED_HD>406-406</MoldeED_HD>
+      <AnilloD_HD>90-70</AnilloD_HD>
+      <BcnameD />
+      <D_DPR_X />
+      <D_DPR_Y />
+      <D_DPR_Sph />
+      <D_DPR_Cyl />
+      <D_DPR_Axis />
+      <D_NPR_X />
+      <D_NPR_Y />
+      <D_NPR_Sph />
+      <D_NPR_Cyl />
+      <D_NPR_Axis />
+    </LadoDerecho>
+    <LadoIzquierdo>
+      <Esfera>0</Esfera>
+      <Cilindro>0</Cilindro>
+      <Eje />
+      <AdicionL />
+      <Molde>NGRO400</Molde>
+      <Prisma />
+      <EjePrisma />
+      <Bloque>90-70</Bloque>
+      <DH>4</DH>
+      <DV>0</DV>
+      <GrosCent>2.3</GrosCent>
+      <OMin>2.2</OMin>
+      <OMax>2.4</OMax>
+      <BaseL>4.00</BaseL>
+      <PotFinalL>I 0, 0</PotFinalL>
+      <MoldeExL>I 400-000</MoldeExL>
+      <MsgI />
+      <MoldeI_HD />
+      <MoldeEI_HD>406-406</MoldeEI_HD>
+      <AnilloI_HD>90-70</AnilloI_HD>
+      <BcnameI />
+      <I_DPR_X />
+      <I_DPR_Y />
+      <I_DPR_Sph />
+      <I_DPR_Cyl />
+      <I_DPR_Axis />
+      <I_NPR_X />
+      <I_NPR_Y />
+      <I_NPR_Sph />
+      <I_NPR_Cyl />
+      <I_NPR_Axis />
+    </LadoIzquierdo>
+    <Generales>
+      <Rx>999901</Rx>
+      <PONumber>400000505</PONumber>
+      <RxLocal>999901</RxLocal>
+      <RxBarCode>{ªª"}</RxBarCode>
+      <Material>POLY</Material>
+      <Diseño>V.S. ESFERICO</Diseño>
+      <Cliente>3753 Eye Hub</Cliente>
+      <AltOblea>19</AltOblea>
+      <Mono>31-31</Mono>
+      <DipceDiple>62-60</DipceDiple>
+      <Armazon>Metal</Armazon>
+      <A>53.0</A>
+      <B>38.0</B>
+      <DBL>18.0</DBL>
+      <ED>55.0</ED>
+      <TinteColor />
+      <TinteNum />
+      <Gradiente />
+      <Biselado />
+      <AR />
+      <dip>62-60</dip>
+      <dia>MARTES</dia>
+      <abrillantado />
+      <lote>A01-06</lote>
+      <horasalida>2:56 PM</horasalida>
+      <fechasalida>Jul/29</fechasalida>
+      <rxident>*9999*</rxident>
+      <trivex />
+      <fechaent>Jul/29</fechaent>
+      <horaent>10:56 AM</horaent>
+      <ordernum>400000505</ordernum>
+      <ColorSL />
+      <Comentarios />
+      <SpecialLabel />
+      <SpecialDesign>F.F. [CR - 13/17]</SpecialDesign>
+    </Generales>
+    <Dinero>
+      <IVApercent>0</IVApercent>
+      <Concepto />
+      <PU>0</PU>
+    </Dinero>
+  </RxBarCode>
+</Receta>

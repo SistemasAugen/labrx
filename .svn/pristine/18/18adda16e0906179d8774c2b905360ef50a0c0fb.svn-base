@@ -1,0 +1,827 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D24B9E0E-0970-4E62-ABE2-D93C2EED37A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Laboratorios.My.MyApplication</StartupObject>
+    <RootNamespace>Laboratorios</RootNamespace>
+    <AssemblyName>Laboratorios</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ApplicationIcon>iconRcp2.ico</ApplicationIcon>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>7037AA38A401960A6FD2A8E9BE551D8630AF6900</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>true</SignManifests>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>\\AUGENSVR1\it\.net projects\produccion-fabrica-labs-san diego\Laboratorios Optisur\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://www.augenopticos.com/LabRx</SupportUrl>
+    <TargetCulture>es-MX</TargetCulture>
+    <ProductName>LabRx</ProductName>
+    <PublisherName>AUGEN Opticos</PublisherName>
+    <MinimumRequiredVersion>3.8.0.0</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>3.8.3.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Laboratorios.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Laboratorios.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Calcot, Version=2.6.4.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Calcot.dll</HintPath>
+    </Reference>
+    <Reference Include="CheckBox, Version=1.0.2516.17714, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>References\CheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="CheckButtonLarge, Version=1.0.2516.17714, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\CheckButtonLarge.dll</HintPath>
+    </Reference>
+    <Reference Include="ComboBox, Version=1.0.2517.32681, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\ComboBox.dll</HintPath>
+    </Reference>
+    <Reference Include="ComboBoxLarge, Version=1.0.2525.15160, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\ComboBoxLarge.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RadioButton, Version=1.0.2516.17714, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\RadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="RoundButtonSmall, Version=1.0.2536.17502, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\RoundButtonSmall.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Laboratorios" />
+    <Import Include="Laboratorios.My.Resources" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AperturaRx.Designer.vb">
+      <DependentUpon>AperturaRx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AperturaRx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="ARLabList.Designer.vb">
+      <DependentUpon>ARLabList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ARLabList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ARList.Designer.vb">
+      <DependentUpon>ARList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ARList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bitacora.vb">
+    </Compile>
+    <Compile Include="BitacoraLabRx.vb" />
+    <Compile Include="Clientes_ABC.Designer.vb">
+      <DependentUpon>Clientes_ABC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes_ABC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes_Saldo.Designer.vb">
+      <DependentUpon>Clientes_Saldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes_Saldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CloseOrder.Designer.vb">
+      <DependentUpon>CloseOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CloseOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cotizacion.Designer.vb">
+      <DependentUpon>Cotizacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cotizacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creditos.Designer.vb">
+      <DependentUpon>Creditos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Creditos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSet_clientes_saldo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_clientes_saldo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EditValues.designer.vb">
+      <DependentUpon>EditValues.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditValues.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorMessage.Designer.vb">
+      <DependentUpon>ErrorMessage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorMessage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frames.vb" />
+    <Compile Include="FrameError.Designer.vb">
+      <DependentUpon>FrameError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrameError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDrill.Designer.vb">
+      <DependentUpon>FrmDrill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDrill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerarRx.Designer.vb">
+      <DependentUpon>GenerarRx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GenerarRx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion.vb" />
+    <Compile Include="InfoPastillas.vb" />
+    <Compile Include="ItemWithValue.vb" />
+    <Compile Include="Lente.vb" />
+    <Compile Include="LocalLab2000DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LocalLab2000DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LocalLab2000DataSet.vb">
+      <DependentUpon>LocalLab2000DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MiscCharges.designer.vb">
+      <DependentUpon>MiscCharges.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MiscCharges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarRecetas.Designer.vb">
+      <DependentUpon>ModificarRecetas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarRecetas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="NewRecetaLab.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewRecetaLab.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="NewRecetaVB.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewRecetaVB.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="OMAFile.vb" />
+    <Compile Include="optisur.vb">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Paquetes.Designer.vb">
+      <DependentUpon>Paquetes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Paquetes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pastilla.vb" />
+    <Compile Include="Ping.vb" />
+    <Compile Include="PreviewArmazon.Designer.vb">
+      <DependentUpon>PreviewArmazon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewArmazon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintRx.vb" />
+    <Compile Include="Prismas.Designer.vb">
+      <DependentUpon>Prismas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prismas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessEfficiency.Designer.vb">
+      <DependentUpon>ProcessEfficiency.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessEfficiency.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pupila.vb" />
+    <Compile Include="ReadFrame.Designer.vb">
+      <DependentUpon>ReadFrame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReadFrame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receta.vb" />
+    <Compile Include="Recibo.Designer.vb">
+      <DependentUpon>Recibo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Recibo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remision.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Remision.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ReneterRx.Designer.vb">
+      <DependentUpon>ReneterRx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReneterRx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RxDr.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RxDr.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RxList.Designer.vb">
+      <DependentUpon>RxList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RxList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RxPreview.Designer.vb">
+      <DependentUpon>RxPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RxPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RxResume.Designer.vb">
+      <DependentUpon>RxResume.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RxResume.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowOrders.designer.vb">
+      <DependentUpon>ShowOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShowOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecialDesigns.Designer.vb">
+      <DependentUpon>SpecialDesigns.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialDesigns.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SqlDB.vb" />
+    <Compile Include="TouchScreenKeyboard.Designer.vb">
+      <DependentUpon>TouchScreenKeyboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TouchScreenKeyboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USBPrint.vb" />
+    <Compile Include="verbienDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>verbienDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="verbienDataSet.vb">
+      <DependentUpon>verbienDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="VirtualRx.Designer.vb">
+      <DependentUpon>VirtualRx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VirtualRx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebOrders.Designer.vb">
+      <DependentUpon>WebOrders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WebOrders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Working.Designer.vb">
+      <DependentUpon>Working.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Working.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewCalcot.vb" />
+    <Compile Include="ZebraPrintLabel.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AperturaRx.resx">
+      <DependentUpon>AperturaRx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ARLabList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ARLabList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ARList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ARList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes_ABC.resx">
+      <DependentUpon>Clientes_ABC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes_Saldo.resx">
+      <DependentUpon>Clientes_Saldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CloseOrder.es-MX.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CloseOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CloseOrder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CloseOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cotizacion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Cotizacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creditos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Creditos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditValues.resx">
+      <DependentUpon>EditValues.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorMessage.en-US.resx">
+      <DependentUpon>ErrorMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorMessage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ErrorMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.es-MX.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrameError.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrameError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDrill.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmDrill.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerarRx.es-MX.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GenerarRx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerarRx.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GenerarRx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MiscCharges.resx">
+      <DependentUpon>MiscCharges.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarRecetas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ModificarRecetas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewRecetaLab.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>NewRecetaLab.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewRecetaVB.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>NewRecetaVB.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paquetes.resx">
+      <DependentUpon>Paquetes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewArmazon.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PreviewArmazon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prismas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Prismas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessEfficiency.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProcessEfficiency.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReadFrame.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReadFrame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recibo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Recibo.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Remision.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Remision.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="ReneterRx.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReneterRx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RxDr.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RxDr.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RxList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RxList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RxPreview.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RxPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RxResume.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RxResume.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowOrders.resx">
+      <DependentUpon>ShowOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecialDesigns.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SpecialDesigns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TouchScreenKeyboard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TouchScreenKeyboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VirtualRx.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VirtualRx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebOrders.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WebOrders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Working.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Working.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="iconRcp2.ico" />
+    <Content Include="Images\Background1.png" />
+    <Content Include="Images\greencirclet.gif" />
+    <Content Include="Images\Lenses\Lens.png" />
+    <Content Include="Images\Lenses\Lens_Error.png" />
+    <Content Include="Images\Lenses\Lens_Error_2.png" />
+    <Content Include="Images\Lenses\Lens_NoInventory.png" />
+    <Content Include="Images\Lenses\Lens_NoInventory_2.png" />
+    <Content Include="Images\Lenses\Lens_OK.png" />
+    <Content Include="Images\Lenses\Lens_OK_2.png" />
+    <Content Include="Images\Lenses\Lens_Over.png" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="DataSet_clientes_saldo.xsc">
+      <DependentUpon>DataSet_clientes_saldo.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_clientes_saldo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_clientes_saldo.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet_clientes_saldo.xss">
+      <DependentUpon>DataSet_clientes_saldo.xsd</DependentUpon>
+    </None>
+    <None Include="Images\Lenses\Lens_Over_2.png" />
+    <Content Include="Images\light.gif" />
+    <None Include="app.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\Lenses\Thumbs.db" />
+    <None Include="LocalLab2000DataSet.xsc">
+      <DependentUpon>LocalLab2000DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LocalLab2000DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>LocalLab2000DataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="LocalLab2000DataSet.xss">
+      <DependentUpon>LocalLab2000DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\greenbolis.png" />
+    <None Include="Resources\greenbolis1.png" />
+    <None Include="Resources\greenbolis_h.png" />
+    <None Include="Images\New Skin\VistaButton.png" />
+    <None Include="Images\New Skin\FONDO.png" />
+    <None Include="Images\New Skin\VistaLeftEyePanel.PNG" />
+    <None Include="Images\New Skin\VistaLeftEyePanelSelected.png" />
+    <None Include="Images\New Skin\VistaRightEyePanelSelected.png" />
+    <None Include="Images\New Skin\VistaRightEyePanel.png" />
+    <None Include="Images\New Skin\VistaPrescripcion.PNG" />
+    <None Include="Images\New Skin\VistaOblea.PNG" />
+    <None Include="Images\New Skin\VistaDIPS.PNG" />
+    <None Include="Images\New Skin\VistaContornoBox.PNG" />
+    <None Include="Images\New Skin\VistaContorno.PNG" />
+    <None Include="Images\New Skin\VistaClientes.PNG" />
+    <None Include="Images\New Skin\VistaRx.PNG" />
+    <None Include="Images\New Skin\VistaRxVantage.PNG" />
+    <None Include="Images\New Skin\VistaPreview.png" />
+    <None Include="Images\New Skin\VistaEjecutar.png" />
+    <None Include="Images\New Skin\VistaPanelError.png" />
+    <None Include="Images\New Skin\VistaConfirmacion.png" />
+    <None Include="Images\New Skin\VistaPideRx.png" />
+    <None Include="Images\New Skin\VistaPrismas.png" />
+    <None Include="Images\New Skin\VistaGreenV.png" />
+    <None Include="Images\New Skin\VistaRedH.png" />
+    <None Include="Images\New Skin\VistaRedV.png" />
+    <None Include="Images\New Skin\VistaGreenH.png" />
+    <None Include="Images\New Skin\VistaProcessEfficieny.png" />
+    <None Include="Images\New Skin\VistaBackground.png" />
+    <None Include="Images\New Skin\VistaAugen.png" />
+    <None Include="Images\New Skin\VistaConnected.png" />
+    <None Include="Images\New Skin\vistadisconnected.png" />
+    <None Include="Images\New Skin\VistaProcessEfficienyNew.png" />
+    <None Include="Images\New Skin\VistaPrescripcionBackground.png" />
+    <None Include="Images\New Skin\VistaProcessEfficieny2.png" />
+    <None Include="Images\New Skin\VistaFONDO.png" />
+    <None Include="Images\New Skin\VistaComments.png" />
+    <None Include="Resources\error.png" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\edit-icon.png" />
+    <Content Include="Resources\Exclamation.png" />
+    <None Include="Resources\help48.png" />
+    <None Include="Resources\ico_error.ico" />
+    <Content Include="Resources\light.gif" />
+    <None Include="Resources\Sign-Download.png" />
+    <None Include="Resources\Warning.png" />
+    <None Include="Resources\redbolis_h.png" />
+    <None Include="Resources\redbolis2.png" />
+    <None Include="Resources\redbolis.png" />
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+    <None Include="Resources\ContornoManual.png" />
+    <None Include="Images\logo.png" />
+    <None Include="verbienDataSet.xsc">
+      <DependentUpon>verbienDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="verbienDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>verbienDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="verbienDataSet.xss">
+      <DependentUpon>verbienDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="BusinessObjects.CrystalReports.10.5">
+      <Visible>False</Visible>
+      <ProductName>Crystal Reports Basic for Visual Studio 2008 %28x86, x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Calcot">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Prerequisite</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportSource">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Prerequisite</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Shared">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Prerequisite</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Windows.Forms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Prerequisite</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

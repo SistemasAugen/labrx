@@ -1,0 +1,632 @@
+Imports Microsoft.Win32
+Imports System.Threading
+Imports System.IO
+Imports System.Data.OleDb
+
+' Pedro Farías L.  Nov 28 2012
+' Ajuste para dar prioridad al código de los paquetes Augen Air
+' Se desecha el esquema anterior y ahora se usa directamente el código del Paquete Augen que comienza con PKG_ en la tabla part
+' El valor del número del paquete es ahora el código de la parte
+
+Public Class Paquetes
+    Private DS As DataSet
+    Private custnum As Integer = 0
+    Private cadena As Integer = 0
+    Private familia As Integer = 0 'JHL
+    Private comentarios As String = ""
+    Private NumArmazonOriginal As String = "0"
+    Private NumPaqueteOriginal As String = ""
+    Private IsModifying As Boolean = False
+    Private RxWeco As String = ""
+    Private RxNum As String = ""
+    Private RxID As String = ""
+    Private PACKTRAN_TYPE As Integer = 0    ' 0: Nada,  1: Quitar Paquete,  2: Cambiar Armazón, 3: Cambio de Número de Paquete
+
+    Public Sub SetRxValues(ByVal rxw As String, ByVal rxn As String, ByVal rxi As String)
+        RxWeco = rxw
+        RxNum = rxn
+        RxID = rxi
+    End Sub
+
+    Public Property NumCliente() As Integer
+        Get
+            Return custnum
+        End Get
+        Set(ByVal Value As Integer)
+            custnum = Value
+        End Set
+    End Property
+
+    Public Property ArmazonOriginal() As String
+        Get
+            Return NumArmazonOriginal
+        End Get
+        Set(ByVal value As String)
+            NumArmazonOriginal = value
+        End Set
+    End Property
+
+    Public Property PaqueteOriginal() As String
+        Get
+            Return NumPaqueteOriginal
+        End Get
+        Set(ByVal value As String)
+            NumPaqueteOriginal = value
+        End Set
+    End Property
+
+    Public Property ComentarioOriginal() As String
+        Get
+            Return comentarios
+        End Get
+        Set(ByVal value As String)
+            comentarios = value
+        End Set
+    End Property
+
+    Public Property PackTran() As String
+        Get
+            Return PACKTRAN_TYPE
+        End Get
+        Set(ByVal value As String)
+            PACKTRAN_TYPE = value
+        End Set
+    End Property
+
+
+    ' Pedro Farías Lozano
+    ' Cambio solicitado por el Dr. Machado para preservar el precio de un paquete, no importan los materiales, armazón etc
+    ' una vez que se define como un paquete, se respeta el precio del paquete. Recae sobre el coordinador del laboratorio la
+    ' obligación de la correcta aplicación de los materiales.
+
+    Private Sub Paquetes_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Dim consys As SqlDB = Nothing
+        Me.lblNumArmazon.Text = "0"
+        Me.lblNumPaquete.Text = ""
+        Me.lblinventario.Text = ""
+        Dim Failed As Boolean = False
+        Dim FailedMessage As String = ""
+
+        Try
+            Me.Cursor = Cursors.WaitCursor
+
+            consys = New SqlDB(My.Settings.LocalServer, My.Settings.DBUser, My.Settings.DBPassword, My.Settings.LocalDBName)
+            consys.OpenConn()
+
+            Dim SqlStr As String
+            DS = New DataSet
+
+            SqlStr = "select idpaquete, descripcion from dbo.tblPaquetesCadenas with(nolock) where descripcion is not null and caracteristica4='armazon' order by descripcion"
+            DS = consys.SQLDS(SqlStr, "t1")
+
+            Dim newRow As DataRow = DS.Tables("t1").NewRow()
+            newRow("idpaquete") = 0
+            newRow("descripcion") = "Elige opcion"
+
+            DS.Tables("t1").Rows.InsertAt(newRow, 0)
+            cmbFamilia.DataSource = DS.Tables("t1")
+
+            cmbFamilia.DisplayMember = "descripcion"
+            cmbFamilia.ValueMember = "idpaquete"
+
+            ' Llena los combos de Material y Diseño en caso de haber paquetes disponibles para el cliente seleccionado
+            'JHL si no se ha seleccionado Familia entonces los materiales no se habilitan
+            ' FillMaterial()
+
+            cmbFamilia.Enabled = True
+            cmbModelo.Enabled = True
+            cmbColor.Enabled = True
+
+            If CInt(NumArmazonOriginal) > 0 Then
+                GetArmazonInfo()
+                HabilitarCombos(False)
+            End If
+            'JHL si no se ha seleccionado Familia y Material entonces los paquetes no se habilitan
+            'GetPaqueteInfo()
+
+            If NumPaqueteOriginal.Length > 0 Then
+                Me.cmbDiseno.SelectedValue = NumPaqueteOriginal
+                Me.cmbDiseno_SelectionChangeCommitted(Nothing, Nothing)
+                Me.lblNumParte.Text = NumPaqueteOriginal
+                Me.lblNumPaquete.Text = NumPaqueteOriginal
+                Me.lblNumPaquete.Visible = True
+            End If
+
+        Catch ex As Exception
+            Failed = True
+            FailedMessage = "Error al obtener informacion de armazones: " & ex.Message & vbCrLf
+        Finally
+            Me.Cursor = Cursors.Default
+            consys.CloseConn()
+            consys = Nothing
+            If Failed Then
+                MsgBox(FailedMessage, MsgBoxStyle.Exclamation)
+            End If
+        End Try
+    End Sub
+
+    Private Sub FillMaterial()
+        Dim consys As SqlDB = Nothing
+        Dim Failed As Boolean = False
+        Dim FailedMessage As String = ""
+
+        Try
+            Me.Cursor = Cursors.WaitCursor
+
+            consys = New SqlDB(My.Settings.LocalServer, My.Settings.DBUser, My.Settings.DBPassword, My.Settings.LocalDBName)
+            consys.OpenConn()
+
+            Dim SqlStr As String
+            DS = New DataSet
+            '-------------------------------------------------------------------------------------------------------------------------
+            ' Pedro Farías Lozano  Nov 29 2012
+            ' Resulta que al bajar un virtual el cliente de la orden virtual no existe en esta sucursal, lógico, no es cliente de aquí
+            ' por lo cual el valor del ComboBox.SelectedValue es null
+            ' al convertirlo malamente a numérico resulta en in 0
+            ' para solucionar este error si el cliente es cero asumimos que la cadena es 0
+            ' y rogamos por que exista una fila en la tabla tblskucadenas para la id cadena 0 que nos arroje materiales
+            ' después de hacer esta corrección me doy cuenta que no es necesario indicar que la orden lleva un paquete puesto
+            ' que en este laboratorio solo se recibe y procesa el AR, nunca se factura ni se cierra la orden aquí.
+            ' Al regresar al laboratorio de origen ahí si está marcado el paquete.
+
+            If custnum > 0 Then
+                SqlStr = "select number06 as NumCadena from customer with(nolock) where custnum = " & custnum
+
+                DS = consys.SQLDS(SqlStr, "t1")
+                cadena = DS.Tables("t1").Rows(0).Item(0)
+
+            Else
+                cadena = 0
+            End If
+            DS.Dispose()
+            DS = Nothing
+            '-------------------------------------------------------------------------------------------------------------------------
+
+            'If DS.Tables("t1").Rows.Count > 0 Then
+            '            If cadena > 0 Then
+            DS = New DataSet
+
+            'JHL Por el momento no se tomara en cuenta el tipo de cliente
+            'SqlStr = "select distinct a.material as material, b.descripcion as mat_descripcion from tblskucadenas a with(nolock) inner join tblcadenamateriales b with(nolock) on a.matid = b.matid where a.cadena=" & cadena & " and a.ispaquete=1"
+            'JHL nuevo query dependiendo de la Familia que seleccione
+            If Me.cmbFamilia.SelectedValue < 60 Or Me.cmbFamilia.SelectedValue > 67 Then
+                familia = 61
+            Else
+                familia = Me.cmbFamilia.SelectedValue
+            End If
+            SqlStr = "select distinct a.shortchar07 as material, b.material as mat_descripcion from part a with(nolock) inner join TblMaterials b with(nolock) on a.shortchar07 = b.cl_mat where a.number06=" & familia & " order by a.shortchar07"
+
+            DS = consys.SQLDS(SqlStr, "t1")
+
+            If DS.Tables("t1").Rows.Count > 0 Then
+                Dim newRow As DataRow = DS.Tables("t1").NewRow()
+                newRow("material") = 0
+                newRow("mat_descripcion") = "Elige opcion"
+
+                DS.Tables("t1").Rows.InsertAt(newRow, 0)
+                cmbMaterial.DataSource = DS.Tables("t1")
+
+                cmbMaterial.DisplayMember = "mat_descripcion"
+                cmbMaterial.ValueMember = "material"
+            Else
+                Me.lblNumPaquete.Text = "NO HAY PAQUETES PARA ESTE CLIENTE"
+                Me.lblNumPaquete.ForeColor = Color.Yellow
+                Me.lblNumPaquete.Visible = True
+
+                HabilitarCombos(False)
+                btnAceptar.Enabled = False
+                btnModificar.Enabled = False
+                btnQuitar.Enabled = False
+            End If
+
+            'Else
+            '   Throw New Exception("No hay paquetes para este cliente!")
+            '            End If
+
+        Catch ex As Exception
+            Failed = True
+            FailedMessage = "Error al llenar los materiales: " & ex.Message & vbCrLf
+        Finally
+            Me.Cursor = Cursors.Default
+            consys.CloseConn()
+            consys = Nothing
+            If Failed Then
+                Throw New Exception(FailedMessage)
+            End If
+        End Try
+    End Sub
+
+    Private Sub cmbFamilia_SelectionChangeCommitted(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbFamilia.SelectionChangeCommitted
+        Dim consys As SqlDB = Nothing
+
+        Try
+            Me.lblNumArmazon.Text = ""
+            Me.lblDescripcion.Text = ""
+            Me.lblinventario.Text = ""
+            cmbModelo.DataSource = Nothing
+            cmbColor.DataSource = Nothing
+
+
+            Me.Cursor = Cursors.WaitCursor
+
+            consys = New SqlDB(My.Settings.LocalServer, My.Settings.DBUser, My.Settings.DBPassword, My.Settings.LocalDBName)
+            consys.OpenConn()
+
+            btnAceptar.Enabled = True
+            btnModificar.Enabled = True
+            btnQuitar.Enabled = True
+
+            Try : cmbMaterial.SelectedIndex = 0 : Catch ex As Exception : End Try
+            'cmbDiseno.DataSource = Nothing
+
+            Dim SqlStr As String
+            DS = New DataSet
+
+            'JHL cambio de query para notar el tipo de material de acuerdo al paquete seleccionado
+            SqlStr = "select distinct modelo, modelo as modval from dbo.tblPaquetesDtl with(nolock) where idpaquete=" & Me.cmbFamilia.SelectedValue & " order by modelo"
+            ' SqlStr = "select distinct a.shortchar07 as modval, a.number06, b.material as modelo from dbo.part a with(nolock) inner join dbo.TblMaterials b with(nolock) on a.shortchar07 = b.cl_mat where a.number06=" & Me.cmbFamilia.SelectedValue & " order by a.shortchar07"
+            DS = consys.SQLDS(SqlStr, "t1")
+
+            Dim newRow As DataRow = DS.Tables("t1").NewRow()
+            newRow("modval") = ""
+            newRow("modelo") = "Elige opcion"
+
+            DS.Tables("t1").Rows.InsertAt(newRow, 0)
+            cmbModelo.DataSource = DS.Tables("t1")
+
+            cmbModelo.DisplayMember = "modelo"
+            cmbModelo.ValueMember = "modval"
+
+            'JHL modifica los valores de los materiales y paquetes despues de seleccionar familia
+            SqlStr = "select distinct a.shortchar07 as material, b.material as mat_descripcion from part a with(nolock) inner join TblMaterials b with(nolock) on a.shortchar07 = b.cl_mat where a.number06=" & Me.cmbFamilia.SelectedValue & " order by a.shortchar07"
+
+            DS = consys.SQLDS(SqlStr, "t2")
+
+            newRow = DS.Tables("t2").NewRow()
+            newRow("material") = 0
+            newRow("mat_descripcion") = "Elige opcion"
+
+            DS.Tables("t2").Rows.InsertAt(newRow, 0)
+            cmbMaterial.DataSource = DS.Tables("t2")
+
+            cmbMaterial.DisplayMember = "mat_descripcion"
+            cmbMaterial.ValueMember = "material"
+
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        Finally
+            Me.Cursor = Cursors.Default
+
+            consys.CloseConn()
+            consys = Nothing
+        End Try
+    End Sub
+
+    Private Sub cmbModelo_SelectionChangeCommitted(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbModelo.SelectionChangeCommitted
+        Dim consys As SqlDB = Nothing
+
+        Try
+            Me.lblNumArmazon.Text = ""
+            Me.lblDescripcion.Text = ""
+            Me.lblinventario.Text = ""
+            cmbColor.DataSource = Nothing
+
+            Me.Cursor = Cursors.WaitCursor
+
+            consys = New SqlDB(My.Settings.LocalServer, My.Settings.DBUser, My.Settings.DBPassword, My.Settings.LocalDBName)
+            consys.OpenConn()
+
+            Dim SqlStr As String
+            DS = New DataSet
+
+            SqlStr = "select distinct color, color as colorval from dbo.tblPaquetesDtl with(nolock) where idpaquete=" & Me.cmbFamilia.SelectedValue & " and modelo='" & Me.cmbModelo.SelectedValue & "' order by color"
+
+            DS = consys.SQLDS(SqlStr, "t1")
+
+            Dim newRow As DataRow = DS.Tables("t1").NewRow()
+            newRow("colorval") = ""
+            newRow("color") = "Elige opcion"
+
+            DS.Tables("t1").Rows.InsertAt(newRow, 0)
+            cmbColor.DataSource = DS.Tables("t1")
+
+            cmbColor.DisplayMember = "color"
+            cmbColor.ValueMember = "colorval"
+
+            If DS.Tables("t1").Rows.Count = 2 Then
+                cmbColor.SelectedIndex = 1
+                cmbColor_SelectionChangeCommitted(Nothing, Nothing)
+            End If
+
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        Finally
+            Me.Cursor = Cursors.Default
+
+            consys.CloseConn()
+            consys = Nothing
+        End Try
+    End Sub
+
+    Private Sub cmbColor_SelectionChangeCommitted(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbColor.SelectionChangeCommitted
+        Dim consys As SqlDB = Nothing
+
+        Try
+            Me.Cursor = Cursors.WaitCursor
+
+            consys = New SqlDB(My.Settings.LocalServer, My.Settings.DBUser, My.Settings.DBPassword, My.Settings.LocalDBName)
+            consys.OpenConn()
+
+            Dim SqlStr As String
+            DS = New DataSet
+
+            SqlStr = "select top 1 idpaqueteitem, shortdescription, isnull(partbin.onhandqty,0) as onhandqty from dbo.tblPaquetesDtl with(nolock) " & _
+                     "left outer join partbin with(nolock) on partbin.partnum = left(idpaqueteitem,5) " & _
+                     "where idpaquete=" & Me.cmbFamilia.SelectedValue & " and modelo='" & Me.cmbModelo.SelectedValue & "' and color='" & Me.cmbColor.SelectedValue & "'"
+
+            DS = consys.SQLDS(SqlStr, "t1")
+
+            Me.lblNumArmazon.Text = DS.Tables("t1").Rows(0).Item(0).ToString()
+            Me.lblDescripcion.Text = DS.Tables("t1").Rows(0).Item(1).ToString()
+            Me.lblinventario.Text = DS.Tables("t1").Rows(0).Item(2).ToString()
+
+            Me.lblNumArmazon.Visible = True
+            Me.lblDescripcion.Visible = True
+            Me.lblinventario.Visible = True
+
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        Finally
+            Me.Cursor = Cursors.Default
+
+            consys.CloseConn()
+            consys = Nothing
+        End Try
+    End Sub
+
+    Private Sub cmbMaterial_SelectionChangeCommitted(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbMaterial.SelectionChangeCommitted
+        Dim consys As SqlDB = Nothing
+        Dim Failed As Boolean = False
+        Dim FailedMessage As String = ""
+
+        Try
+
+            Me.Cursor = Cursors.WaitCursor
+
+            consys = New SqlDB(My.Settings.LocalServer, My.Settings.DBUser, My.Settings.DBPassword, My.Settings.LocalDBName)
+            consys.OpenConn()
+
+            Dim SqlStr As String
+            DS = New DataSet
+            'JHL modifica los valores de los paquetes despues de seleccionar familia y materiales
+            'SqlStr = "select isnull(descripciongrupo,'') as descripciongrupo from dbo.tblPaquetesCadenas with(nolock) where idpaquete=" & Me.cmbFamilia.SelectedValue
+            SqlStr = "select partnum, partdescription, character10, shortchar07 from part where number06 = " & Me.cmbFamilia.SelectedValue & " and shortchar07 = " & Me.cmbMaterial.SelectedValue
+
+            DS = consys.SQLDS(SqlStr, "t1")
+
+            Dim newRow As DataRow = DS.Tables("t1").NewRow()
+            newRow("partnum") = ""
+            'newRow("partdescription") = "Elige opcion" 'JHL
+            newRow("character10") = "Elige opcion"
+
+            DS.Tables("t1").Rows.InsertAt(newRow, 0)
+            cmbDiseno.DataSource = DS.Tables("t1")
+
+            'cmbDiseno.DisplayMember = "partdescription" 'JHL
+            cmbDiseno.DisplayMember = "character10"
+            cmbDiseno.ValueMember = "partnum"
+            'JHL acaba la modificacion
+
+        Catch ex As Exception
+            Failed = True
+            FailedMessage = "Error al obtener material: " & ex.Message & vbCrLf
+        Finally
+            Me.Cursor = Cursors.Default
+            consys.CloseConn()
+            consys = Nothing
+            If Failed Then
+                Throw New Exception(FailedMessage)
+            End If
+        End Try
+    End Sub
+
+
+    Private Sub cmbDiseno_SelectionChangeCommitted(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbDiseno.SelectionChangeCommitted
+
+        Try
+
+            Me.lblNumParte.Text = cmbDiseno.SelectedValue
+            Me.lblNumPaquete.Text = cmbDiseno.SelectedValue
+            Me.lblNumPaquete.Visible = True
+
+        Catch ex As Exception
+            Throw New Exception(ex.Message, ex)
+
+        End Try
+
+    End Sub
+
+    Private Sub btnAceptar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAceptar.Click
+
+        If IsModifying Then
+            If (Me.lblNumArmazon.Text <> Me.NumArmazonOriginal) Then
+                'ActualizaInventarioArmazon(NumArmazonOriginal, Me.lblNumArmazon.Text, 2)
+                PackTran = 2
+            ElseIf NumPaqueteOriginal <> lblNumPaquete.Text Then
+                PackTran = 3 ' Cambio de Paquete
+            End If
+
+        Else
+
+            PackTran = 2 ' Cambio de Armazón
+
+        End If
+
+
+
+        If PackTran = 1 Then
+            comentarios = ""
+            Me.Close()
+        End If
+
+        If lblNumPaquete.Text.Length > 0 Then
+            comentarios = "Armazón " + lblDescripcion.Text + ", No. Lente " + lblNumPaquete.Text
+        Else
+            comentarios = "Armazón " + lblDescripcion.Text
+        End If
+
+        Me.Close()
+    End Sub
+
+    Private Sub btnCancelar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCancelar.Click
+        Me.lblNumArmazon.Text = Me.NumArmazonOriginal
+        Me.lblNumPaquete.Text = Me.NumPaqueteOriginal
+        comentarios = Me.ComentarioOriginal
+        Me.PackTran = 0
+        Me.Close()
+    End Sub
+
+    Private Sub GetArmazonInfo()
+        Dim consys As SqlDB = Nothing
+        Dim MyDS As DataSet = Nothing
+
+        Try
+            consys = New SqlDB(My.Settings.LocalServer, My.Settings.DBUser, My.Settings.DBPassword, My.Settings.LocalDBName)
+            consys.OpenConn()
+
+            Dim SqlStr As String
+            MyDS = New DataSet
+
+            SqlStr = "select top 1 idpaquete, modelo, color, shortdescription from dbo.tblPaquetesDtl with(nolock) where idpaqueteitem=" & NumArmazonOriginal
+
+            MyDS = consys.SQLDS(SqlStr, "t1")
+
+            'Me.lblNumArmazon.Text = NumArmazonOriginal
+            'Me.lblDescripcion.Text = DS.Tables("t1").Rows(0).Item(3).ToString()
+
+            Me.cmbFamilia.SelectedValue = MyDS.Tables("t1").Rows(0).Item(0).ToString()
+            Me.cmbFamilia_SelectionChangeCommitted(Nothing, Nothing)
+
+            Me.cmbModelo.SelectedValue = MyDS.Tables("t1").Rows(0).Item(1).ToString()
+            Me.cmbModelo_SelectionChangeCommitted(Nothing, Nothing)
+
+            Me.cmbColor.SelectedValue = MyDS.Tables("t1").Rows(0).Item(2).ToString()
+            Me.cmbColor_SelectionChangeCommitted(Nothing, Nothing)
+
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        Finally
+
+            consys.CloseConn()
+            consys = Nothing
+        End Try
+    End Sub
+
+    Private Sub GetPaqueteInfo()
+        Dim consys As SqlDB = Nothing
+        Dim MyDS As DataSet = Nothing
+        Dim Failed As Boolean = False
+        Dim FailedMessage As String = ""
+        Dim SqlStr As String
+        Dim newRow As DataRow
+
+        MyDS = New DataSet
+
+        Try
+            consys = New SqlDB(My.Settings.LocalServer, My.Settings.DBUser, My.Settings.DBPassword, My.Settings.LocalDBName)
+            consys.OpenConn()
+
+
+            SqlStr = "select PARTNUM,partdescription from PART where PARTNUM LIKE 'PKG_%'"
+
+            MyDS = consys.SQLDS(SqlStr, "t1")
+
+            newRow = MyDS.Tables("t1").NewRow()
+            newRow("PARTNUM") = ""
+            newRow("partdescription") = "Elige un paquete"
+            MyDS.Tables(0).Rows.InsertAt(newRow, 0)
+
+            cmbDiseno.DataSource = MyDS.Tables(0)
+            cmbDiseno.DisplayMember = "partdescription"
+            cmbDiseno.ValueMember = "partnum"
+
+        Catch ex As Exception
+            Failed = True
+            FailedMessage = "Error al obtener los paquetes: " & ex.Message & vbCrLf
+        Finally
+
+        End Try
+
+
+        '        Me.cmbMaterial.SelectedValue = MyDS.Tables("t1").Rows(0).Item(0).ToString()
+        '        Me.cmbMaterial_SelectionChangeCommitted(Nothing, Nothing)
+
+        consys.CloseConn()
+        consys = Nothing
+        If Failed Then
+            Throw New Exception(FailedMessage)
+        End If
+
+    End Sub
+
+    Private Sub HabilitarCombos(ByVal estado As Boolean)
+        Me.cmbFamilia.Enabled = estado
+        Me.cmbModelo.Enabled = estado
+        Me.cmbColor.Enabled = estado
+        Me.cmbMaterial.Enabled = estado
+        Me.cmbDiseno.Enabled = estado
+    End Sub
+
+    Private Sub btnModificar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnModificar.Click
+        IsModifying = True
+        Me.HabilitarCombos(True)
+        Me.btnModificar.Enabled = False
+
+    End Sub
+
+    Private Sub btnQuitar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnQuitar.Click
+        IsModifying = False
+        Me.lblNumArmazon.Text = "0"
+        Me.lblNumPaquete.Text = ""
+        Me.lblinventario.Text = ""
+        Me.lblDescripcion.Text = ""
+        Me.lblNumParte.Text = ""
+
+        Me.btnQuitar.Enabled = False
+        Me.PackTran = 1
+        'Me.Close()
+    End Sub
+
+    Private Sub ActualizaInventarioArmazon(ByVal numarm As String, ByVal numarm2 As String, ByVal armqty As Integer)
+        Dim ConnLocal As New SqlDB(My.Settings.LocalServer, My.Settings.DBUser, My.Settings.DBPassword, My.Settings.LocalDBName)
+        Dim dsWhse As New DataSet
+        Dim TranLocal As SqlClient.SqlTransaction
+        Try
+            ConnLocal.OpenConn()
+
+            TranLocal = ConnLocal.SQLConn.BeginTransaction
+
+            dsWhse = ConnLocal.SQLDS("SELECT primbin,warehousecode from plantwhse WITH(NOLOCK) where company='TRECEUX' and partnum='" & numarm.Substring(0, 5) & "' and plant='" & My.Settings.Plant & "'", "t1", TranLocal)
+            ConnLocal.Transaction("EXEC SP_Qty_AdjustmentTRECEUX 'TRECEUX'," & RxNum & "," & RxID & "," & RxWeco & ",'" & numarm.Substring(0, 5) & "','" & Now.Date & "','" & dsWhse.Tables("t1").Rows(0).Item("warehousecode") & "','" & dsWhse.Tables("t1").Rows(0).Item("primbin") & "',1,'RINA01','Regresa/Inventario Por Cambio de Armazon',0,'" & My.User.Name & "',''", TranLocal)
+
+            If armqty = 2 Then
+                ConnLocal.Transaction("EXEC SP_Qty_AdjustmentTRECEUX 'TRECEUX'," & RxNum & "," & RxID & "," & RxWeco & ",'" & numarm2.Substring(0, 5) & "','" & Now.Date & "','" & dsWhse.Tables("t1").Rows(0).Item("warehousecode") & "','" & dsWhse.Tables("t1").Rows(0).Item("primbin") & "',-1,'DINA01','Descuenta/Inventario Por Cambio de Armazon',0,'" & My.User.Name & "',''", TranLocal)
+            End If
+
+            TranLocal.Commit()
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical)
+        Finally
+            ConnLocal.CloseConn()
+        End Try
+
+    End Sub
+
+    Private Sub cmbFamilia_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbFamilia.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub cmbMaterial_SelectedIndexChanged(sender As System.Object, e As System.EventArgs) Handles cmbMaterial.SelectedIndexChanged
+
+    End Sub
+End Class

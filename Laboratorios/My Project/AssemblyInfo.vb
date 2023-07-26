@@ -1,0 +1,39 @@
+﻿Imports System.Resources
+
+Imports System
+Imports System.Reflection
+Imports System.Runtime.InteropServices
+
+' General Information about an assembly is controlled through the following 
+' set of attributes. Change these attribute values to modify the information
+' associated with an assembly.
+
+' Review the values of the assembly attributes
+
+<Assembly: AssemblyTitle("Captura de Recetas - Rx Virtuales - Titanium")> 
+<Assembly: AssemblyDescription("Interfaz de Captura de Recetas")> 
+<Assembly: AssemblyCompany("AUGEN")> 
+<Assembly: AssemblyProduct("LabRx Virtuales Titanium")> 
+<Assembly: AssemblyCopyright("Copyright ©  2006-2015")> 
+<Assembly: AssemblyTrademark("AUGEN Opticos")> 
+
+<Assembly: ComVisible(False)> 
+
+'The following GUID is for the ID of the typelib if this project is exposed to COM
+<Assembly: Guid("b89b847b-f31e-4c06-aeb8-8f3f213d435d")> 
+
+' Version information for an assembly consists of the following four values:
+'
+'      Major Version
+'      Minor Version 
+'      Build Number
+'      Revision
+'
+' You can specify all the values or you can default the Build and Revision Numbers 
+' by using the '*' as shown below:
+' <Assembly: AssemblyVersion("1.0.*")> 
+
+<Assembly: AssemblyVersion("3.8.7.0")> 
+<Assembly: AssemblyFileVersion("3.8.7.0")> 
+
+<Assembly: NeutralResourcesLanguageAttribute("es-MX")> 
